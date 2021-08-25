@@ -699,10 +699,10 @@ Wire Wire Line
 Wire Wire Line
 	850  3250 850  3400
 $Comp
-L Amplifier_Operational:TL082 U?
+L Amplifier_Operational:TL082 U5
 U 1 1 6125CADF
 P 2500 6200
-F 0 "U?" H 2500 6567 50  0000 C CNN
+F 0 "U5" H 2500 6567 50  0000 C CNN
 F 1 "TL082" H 2500 6476 50  0000 C CNN
 F 2 "" H 2500 6200 50  0001 C CNN
 F 3 "http://www.ti.com/lit/ds/symlink/tl081.pdf" H 2500 6200 50  0001 C CNN
@@ -710,10 +710,10 @@ F 3 "http://www.ti.com/lit/ds/symlink/tl081.pdf" H 2500 6200 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Amplifier_Operational:TL082 U?
+L Amplifier_Operational:TL082 U5
 U 2 1 61260E14
 P 4550 6700
-F 0 "U?" H 4550 7067 50  0000 C CNN
+F 0 "U5" H 4550 7067 50  0000 C CNN
 F 1 "TL082" H 4550 6976 50  0000 C CNN
 F 2 "" H 4550 6700 50  0001 C CNN
 F 3 "http://www.ti.com/lit/ds/symlink/tl081.pdf" H 4550 6700 50  0001 C CNN
@@ -731,10 +731,10 @@ Wire Wire Line
 Wire Wire Line
 	2950 6200 2800 6200
 $Comp
-L Amplifier_Operational:TL082 U?
+L Amplifier_Operational:TL082 U5
 U 3 1 61266A11
 P 2750 6200
-F 0 "U?" H 2708 6246 50  0000 L CNN
+F 0 "U5" H 2708 6246 50  0000 L CNN
 F 1 "TL082" H 2708 6155 50  0000 L CNN
 F 2 "" H 2750 6200 50  0001 C CNN
 F 3 "http://www.ti.com/lit/ds/symlink/tl081.pdf" H 2750 6200 50  0001 C CNN
