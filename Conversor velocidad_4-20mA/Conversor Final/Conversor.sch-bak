@@ -437,9 +437,9 @@ F 3 "http://www.intersil.com/content/dam/Intersil/documents/cd40/cd4070bms-77bms
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	5250 3350 5450 3350
+	5250 3350 5350 3350
 Wire Wire Line
-	5300 4000 5550 4000
+	5300 4000 5350 4000
 Wire Wire Line
 	4600 3250 4600 3800
 Wire Wire Line
@@ -945,4 +945,12 @@ Text GLabel 2050 6100 0    50   Input ~ 0
 A
 Wire Wire Line
 	2050 6100 2200 6100
+Wire Wire Line
+	5350 3350 5350 4000
+Connection ~ 5350 3350
+Wire Wire Line
+	5350 3350 5450 3350
+Connection ~ 5350 4000
+Wire Wire Line
+	5350 4000 5550 4000
 $EndSCHEMATC
