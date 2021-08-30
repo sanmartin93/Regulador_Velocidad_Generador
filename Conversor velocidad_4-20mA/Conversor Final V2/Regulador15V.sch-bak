@@ -1,0 +1,166 @@
+EESchema Schematic File Version 4
+EELAYER 30 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 3 4
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L Regulator_Linear:L7815 U?
+U 1 1 612EE8D8
+P 5625 3200
+F 0 "U?" H 5625 3442 50  0000 C CNN
+F 1 "L7815" H 5625 3351 50  0000 C CNN
+F 2 "" H 5650 3050 50  0001 L CIN
+F 3 "http://www.st.com/content/ccc/resource/technical/document/datasheet/41/4f/b3/b0/12/d4/47/88/CD00000444.pdf/files/CD00000444.pdf/jcr:content/translations/en.CD00000444.pdf" H 5625 3150 50  0001 C CNN
+	1    5625 3200
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 612EE8DE
+P 5625 3700
+F 0 "#PWR?" H 5625 3450 50  0001 C CNN
+F 1 "GND" H 5630 3527 50  0000 C CNN
+F 2 "" H 5625 3700 50  0001 C CNN
+F 3 "" H 5625 3700 50  0001 C CNN
+	1    5625 3700
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C?
+U 1 1 612EE8E4
+P 5175 3600
+F 0 "C?" H 5290 3646 50  0000 L CNN
+F 1 "C" H 5290 3555 50  0000 L CNN
+F 2 "" H 5213 3450 50  0001 C CNN
+F 3 "~" H 5175 3600 50  0001 C CNN
+	1    5175 3600
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C?
+U 1 1 612EE8EA
+P 6075 3600
+F 0 "C?" H 6190 3646 50  0000 L CNN
+F 1 "C" H 6190 3555 50  0000 L CNN
+F 2 "" H 6113 3450 50  0001 C CNN
+F 3 "~" H 6075 3600 50  0001 C CNN
+	1    6075 3600
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector:Conn_01x02_Female J?
+U 1 1 612EE8F0
+P 4725 3300
+F 0 "J?" H 4725 3375 50  0000 C CNN
+F 1 "Bornera continua > 15V" H 5225 3250 50  0000 C CNN
+F 2 "" H 4725 3300 50  0001 C CNN
+F 3 "~" H 4725 3300 50  0001 C CNN
+	1    4725 3300
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	5325 3200 5175 3200
+Wire Wire Line
+	5175 3450 5175 3200
+Connection ~ 5175 3200
+Wire Wire Line
+	6075 3200 6075 3450
+$Comp
+L power:GND #PWR?
+U 1 1 612EE8FB
+P 6075 3850
+F 0 "#PWR?" H 6075 3600 50  0001 C CNN
+F 1 "GND" H 6080 3677 50  0000 C CNN
+F 2 "" H 6075 3850 50  0001 C CNN
+F 3 "" H 6075 3850 50  0001 C CNN
+	1    6075 3850
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 612EE901
+P 5175 3850
+F 0 "#PWR?" H 5175 3600 50  0001 C CNN
+F 1 "GND" H 5180 3677 50  0000 C CNN
+F 2 "" H 5175 3850 50  0001 C CNN
+F 3 "" H 5175 3850 50  0001 C CNN
+	1    5175 3850
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5625 3500 5625 3700
+Wire Wire Line
+	6075 3750 6075 3850
+Wire Wire Line
+	5175 3750 5175 3850
+$Comp
+L power:GND #PWR?
+U 1 1 612EE90B
+P 4925 3650
+F 0 "#PWR?" H 4925 3400 50  0001 C CNN
+F 1 "GND" H 4930 3477 50  0000 C CNN
+F 2 "" H 4925 3650 50  0001 C CNN
+F 3 "" H 4925 3650 50  0001 C CNN
+	1    4925 3650
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:PWR_FLAG #FLG?
+U 1 1 612EE913
+P 4450 3575
+F 0 "#FLG?" H 4450 3650 50  0001 C CNN
+F 1 "PWR_FLAG" H 4450 3725 50  0000 C CNN
+F 2 "" H 4450 3575 50  0001 C CNN
+F 3 "~" H 4450 3575 50  0001 C CNN
+	1    4450 3575
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4925 3300 4925 3600
+Wire Wire Line
+	4450 3575 4450 3600
+Wire Wire Line
+	4450 3600 4925 3600
+Connection ~ 4925 3600
+Wire Wire Line
+	4925 3600 4925 3650
+$Comp
+L power:PWR_FLAG #FLG?
+U 1 1 612EE924
+P 5175 3000
+F 0 "#FLG?" H 5175 3075 50  0001 C CNN
+F 1 "PWR_FLAG" H 5175 3150 50  0000 C CNN
+F 2 "" H 5175 3000 50  0001 C CNN
+F 3 "~" H 5175 3000 50  0001 C CNN
+	1    5175 3000
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4925 3200 4950 3200
+Connection ~ 4950 3200
+Wire Wire Line
+	4950 3200 5175 3200
+Wire Wire Line
+	5175 3000 5175 3200
+Text HLabel 6400 3200 2    50   Input ~ 0
+15V
+Wire Wire Line
+	5925 3200 6075 3200
+Connection ~ 6075 3200
+Wire Wire Line
+	6075 3200 6400 3200
+Text HLabel 4950 3000 1    50   Input ~ 0
+24V
+Wire Wire Line
+	4950 3000 4950 3200
+$EndSCHEMATC
