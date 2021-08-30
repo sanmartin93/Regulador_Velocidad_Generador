@@ -115,45 +115,45 @@ $EndComp
 $Comp
 L Regulator_Linear:L7815 U1
 U 1 1 6124D33A
-P 1700 750
-F 0 "U1" H 1700 992 50  0000 C CNN
-F 1 "L7815" H 1700 901 50  0000 C CNN
-F 2 "" H 1725 600 50  0001 L CIN
-F 3 "http://www.st.com/content/ccc/resource/technical/document/datasheet/41/4f/b3/b0/12/d4/47/88/CD00000444.pdf/files/CD00000444.pdf/jcr:content/translations/en.CD00000444.pdf" H 1700 700 50  0001 C CNN
-	1    1700 750 
+P 2525 900
+F 0 "U1" H 2525 1142 50  0000 C CNN
+F 1 "L7815" H 2525 1051 50  0000 C CNN
+F 2 "" H 2550 750 50  0001 L CIN
+F 3 "http://www.st.com/content/ccc/resource/technical/document/datasheet/41/4f/b3/b0/12/d4/47/88/CD00000444.pdf/files/CD00000444.pdf/jcr:content/translations/en.CD00000444.pdf" H 2525 850 50  0001 C CNN
+	1    2525 900 
 	1    0    0    -1  
 $EndComp
 $Comp
 L power:GND #PWR0105
 U 1 1 6124DF80
-P 1700 1250
-F 0 "#PWR0105" H 1700 1000 50  0001 C CNN
-F 1 "GND" H 1705 1077 50  0000 C CNN
-F 2 "" H 1700 1250 50  0001 C CNN
-F 3 "" H 1700 1250 50  0001 C CNN
-	1    1700 1250
+P 2525 1400
+F 0 "#PWR0105" H 2525 1150 50  0001 C CNN
+F 1 "GND" H 2530 1227 50  0000 C CNN
+F 2 "" H 2525 1400 50  0001 C CNN
+F 3 "" H 2525 1400 50  0001 C CNN
+	1    2525 1400
 	1    0    0    -1  
 $EndComp
 $Comp
 L Device:C C1
 U 1 1 6124E2D4
-P 1250 1150
-F 0 "C1" H 1365 1196 50  0000 L CNN
-F 1 "C" H 1365 1105 50  0000 L CNN
-F 2 "" H 1288 1000 50  0001 C CNN
-F 3 "~" H 1250 1150 50  0001 C CNN
-	1    1250 1150
+P 2075 1300
+F 0 "C1" H 2190 1346 50  0000 L CNN
+F 1 "C" H 2190 1255 50  0000 L CNN
+F 2 "" H 2113 1150 50  0001 C CNN
+F 3 "~" H 2075 1300 50  0001 C CNN
+	1    2075 1300
 	1    0    0    -1  
 $EndComp
 $Comp
 L Device:C C2
 U 1 1 6124E8B2
-P 2150 1150
-F 0 "C2" H 2265 1196 50  0000 L CNN
-F 1 "C" H 2265 1105 50  0000 L CNN
-F 2 "" H 2188 1000 50  0001 C CNN
-F 3 "~" H 2150 1150 50  0001 C CNN
-	1    2150 1150
+P 2975 1300
+F 0 "C2" H 3090 1346 50  0000 L CNN
+F 1 "C" H 3090 1255 50  0000 L CNN
+F 2 "" H 3013 1150 50  0001 C CNN
+F 3 "~" H 2975 1300 50  0001 C CNN
+	1    2975 1300
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -258,71 +258,63 @@ $EndComp
 $Comp
 L Connector:Conn_01x02_Female J2
 U 1 1 6126DA1C
-P 800 850
-F 0 "J2" H 692 525 50  0000 C CNN
-F 1 "Bornera continua > 15V" H 692 616 50  0000 C CNN
-F 2 "" H 800 850 50  0001 C CNN
-F 3 "~" H 800 850 50  0001 C CNN
-	1    800  850 
+P 1625 1000
+F 0 "J2" H 1625 1075 50  0000 C CNN
+F 1 "Bornera continua > 15V" H 2125 950 50  0000 C CNN
+F 2 "" H 1625 1000 50  0001 C CNN
+F 3 "~" H 1625 1000 50  0001 C CNN
+	1    1625 1000
 	-1   0    0    1   
 $EndComp
 Wire Wire Line
-	1400 750  1250 750 
+	2225 900  2075 900 
 Wire Wire Line
-	1250 1000 1250 750 
-Connection ~ 1250 750 
+	2075 1150 2075 900 
+Connection ~ 2075 900 
 Wire Wire Line
-	1250 750  1000 750 
+	2825 900  2975 900 
 Wire Wire Line
-	2000 750  2150 750 
-Wire Wire Line
-	2150 750  2150 1000
+	2975 900  2975 1150
 $Comp
 L power:GND #PWR0106
 U 1 1 61276189
-P 2150 1400
-F 0 "#PWR0106" H 2150 1150 50  0001 C CNN
-F 1 "GND" H 2155 1227 50  0000 C CNN
-F 2 "" H 2150 1400 50  0001 C CNN
-F 3 "" H 2150 1400 50  0001 C CNN
-	1    2150 1400
+P 2975 1550
+F 0 "#PWR0106" H 2975 1300 50  0001 C CNN
+F 1 "GND" H 2980 1377 50  0000 C CNN
+F 2 "" H 2975 1550 50  0001 C CNN
+F 3 "" H 2975 1550 50  0001 C CNN
+	1    2975 1550
 	1    0    0    -1  
 $EndComp
 $Comp
 L power:GND #PWR0107
 U 1 1 612764B5
-P 1250 1400
-F 0 "#PWR0107" H 1250 1150 50  0001 C CNN
-F 1 "GND" H 1255 1227 50  0000 C CNN
-F 2 "" H 1250 1400 50  0001 C CNN
-F 3 "" H 1250 1400 50  0001 C CNN
-	1    1250 1400
+P 2075 1550
+F 0 "#PWR0107" H 2075 1300 50  0001 C CNN
+F 1 "GND" H 2080 1377 50  0000 C CNN
+F 2 "" H 2075 1550 50  0001 C CNN
+F 3 "" H 2075 1550 50  0001 C CNN
+	1    2075 1550
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	1700 1050 1700 1250
+	2525 1200 2525 1400
 Wire Wire Line
-	2150 1300 2150 1400
+	2975 1450 2975 1550
 Wire Wire Line
-	1250 1300 1250 1400
-Text GLabel 2450 750  2    50   Input ~ 0
-15V
-Wire Wire Line
-	2450 750  2150 750 
-Connection ~ 2150 750 
+	2075 1450 2075 1550
+Connection ~ 2975 900 
 $Comp
 L power:GND #PWR0108
 U 1 1 6127823B
-P 1000 1000
-F 0 "#PWR0108" H 1000 750 50  0001 C CNN
-F 1 "GND" H 1005 827 50  0000 C CNN
-F 2 "" H 1000 1000 50  0001 C CNN
-F 3 "" H 1000 1000 50  0001 C CNN
-	1    1000 1000
+P 1825 1350
+F 0 "#PWR0108" H 1825 1100 50  0001 C CNN
+F 1 "GND" H 1830 1177 50  0000 C CNN
+F 2 "" H 1825 1350 50  0001 C CNN
+F 3 "" H 1825 1350 50  0001 C CNN
+	1    1825 1350
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	1000 1000 1000 850 
 $Comp
 L Connector:Conn_01x02_Female J1
 U 1 1 612819CA
@@ -347,10 +339,6 @@ Wire Wire Line
 	2200 3350 2200 3700
 Wire Wire Line
 	2200 2800 2200 2900
-Text GLabel 2200 2350 1    50   Input ~ 0
-15V
-Wire Wire Line
-	2200 2350 2200 2500
 Wire Wire Line
 	2900 2900 2200 2900
 Connection ~ 2200 2900
@@ -360,10 +348,6 @@ Wire Wire Line
 	2900 3200 2900 3700
 Wire Wire Line
 	3400 4400 3400 4300
-Text GLabel 3400 2250 1    50   Input ~ 0
-15V
-Wire Wire Line
-	3400 2600 3400 2250
 $Comp
 L power:GND #PWR0109
 U 1 1 6129C2E2
@@ -468,10 +452,6 @@ F 3 "" H 6150 4550 50  0001 C CNN
 	1    6150 4550
 	1    0    0    -1  
 $EndComp
-Text GLabel 6400 4550 3    50   Input ~ 0
-15V
-Wire Wire Line
-	6400 4550 6400 4400
 Wire Wire Line
 	6150 4550 6150 4400
 Wire Wire Line
@@ -516,8 +496,6 @@ F 3 "http://www.ti.com/lit/ds/symlink/tl081.pdf" H 7850 3600 50  0001 C CNN
 	3    7850 3600
 	1    0    0    -1  
 $EndComp
-Text GLabel 7750 3000 1    50   Input ~ 0
-15V
 $Comp
 L power:GND #PWR0113
 U 1 1 612CAC49
@@ -531,8 +509,6 @@ F 3 "" H 7750 4150 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	7750 4150 7750 3900
-Wire Wire Line
-	7750 3300 7750 3000
 Wire Wire Line
 	8150 3600 8600 3600
 Wire Wire Line
@@ -570,10 +546,6 @@ F 3 "" H 4450 1050 50  0001 C CNN
 	1    4450 1050
 	1    0    0    -1  
 $EndComp
-Text GLabel 5600 950  2    50   Input ~ 0
-15V
-Wire Wire Line
-	5450 950  5600 950 
 Wire Wire Line
 	4450 1050 4450 950 
 Wire Wire Line
@@ -754,8 +726,6 @@ F 3 "" H 2650 7000 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	2650 7000 2650 6900
-Text GLabel 2650 5250 1    50   Input ~ 0
-15V
 $Comp
 L Device:R_POT_TRIM_US RV2
 U 1 1 61278C3F
@@ -880,8 +850,6 @@ $EndComp
 Wire Wire Line
 	3800 6000 3800 5900
 Wire Wire Line
-	2650 5250 2650 5350
-Wire Wire Line
 	3800 5600 3800 5350
 Wire Wire Line
 	3800 5350 2650 5350
@@ -964,4 +932,86 @@ NoConn ~ 3900 3700
 NoConn ~ 3900 3800
 NoConn ~ 3900 3900
 NoConn ~ 3900 4000
+<<<<<<< HEAD
+=======
+Text Label 3350 900  0    50   ~ 0
+15V
+Text Label 2200 2200 0    50   ~ 0
+15V
+Text Label 3400 2200 0    50   ~ 0
+15V
+Wire Wire Line
+	2975 900  3350 900 
+Wire Wire Line
+	3400 2200 3400 2600
+Wire Wire Line
+	2200 2200 2200 2500
+Text Label 5750 950  0    50   ~ 0
+15V
+Wire Wire Line
+	5450 950  5750 950 
+Text Label 2650 5125 0    50   ~ 0
+15V
+Wire Wire Line
+	2650 5125 2650 5350
+Text Label 7750 2275 0    50   ~ 0
+15V
+Wire Wire Line
+	7750 2275 7750 3300
+Text Label 6400 4750 0    50   ~ 0
+15V
+Wire Wire Line
+	6400 4400 6400 4750
+$Comp
+L power:PWR_FLAG #FLG0101
+U 1 1 61319FD6
+P 1350 1275
+F 0 "#FLG0101" H 1350 1350 50  0001 C CNN
+F 1 "PWR_FLAG" H 1350 1425 50  0000 C CNN
+F 2 "" H 1350 1275 50  0001 C CNN
+F 3 "~" H 1350 1275 50  0001 C CNN
+	1    1350 1275
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+24V #PWR0121
+U 1 1 6131BC4B
+P 1850 775
+F 0 "#PWR0121" H 1850 625 50  0001 C CNN
+F 1 "+24V" H 1825 900 50  0000 C CNN
+F 2 "" H 1850 775 50  0001 C CNN
+F 3 "" H 1850 775 50  0001 C CNN
+	1    1850 775 
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1825 1000 1825 1300
+Wire Wire Line
+	1350 1275 1350 1300
+Wire Wire Line
+	1350 1300 1825 1300
+Connection ~ 1825 1300
+Wire Wire Line
+	1825 1300 1825 1350
+$Comp
+L power:PWR_FLAG #FLG0102
+U 1 1 61337CE6
+P 2075 700
+F 0 "#FLG0102" H 2075 775 50  0001 C CNN
+F 1 "PWR_FLAG" H 2075 850 50  0000 C CNN
+F 2 "" H 2075 700 50  0001 C CNN
+F 3 "~" H 2075 700 50  0001 C CNN
+	1    2075 700 
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1825 900  1850 900 
+Wire Wire Line
+	1850 775  1850 900 
+Connection ~ 1850 900 
+Wire Wire Line
+	1850 900  2075 900 
+Wire Wire Line
+	2075 700  2075 900 
+>>>>>>> Santi
 $EndSCHEMATC
