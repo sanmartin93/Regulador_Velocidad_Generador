@@ -61,4 +61,15 @@ Wire Wire Line
 	3550 2250 3550 2000
 Wire Wire Line
 	3550 2000 2950 2000
+$Comp
+L Relay:DIPxx-1Cxx-51x K1
+U 1 1 612F3E2A
+P 4525 3750
+F 0 "K1" H 4955 3796 50  0000 L CNN
+F 1 "DIPxx-1Cxx-51x" H 4955 3705 50  0000 L CNN
+F 2 "Relay_THT:Relay_StandexMeder_DIP_LowProfile" H 4975 3700 50  0001 L CNN
+F 3 "https://standexelectronics.com/wp-content/uploads/datasheet_reed_relay_DIP.pdf" H 4525 3750 50  0001 C CNN
+	1    4525 3750
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC
