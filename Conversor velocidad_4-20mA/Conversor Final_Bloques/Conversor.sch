@@ -1,0 +1,600 @@
+EESchema Schematic File Version 4
+EELAYER 30 0
+EELAYER END
+$Descr A2 23386 16535
+encoding utf-8
+Sheet 1 6
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L Device:R R2
+U 1 1 61243914
+P 2775 4500
+F 0 "R2" H 2845 4546 50  0000 L CNN
+F 1 "100K" H 2845 4455 50  0000 L CNN
+F 2 "" V 2705 4500 50  0001 C CNN
+F 3 "~" H 2775 4500 50  0001 C CNN
+	1    2775 4500
+	1    0    0    -1  
+$EndComp
+$Comp
+L Transistor_BJT:BC848 Q1
+U 1 1 61244799
+P 2675 5000
+F 0 "Q1" H 2866 5046 50  0000 L CNN
+F 1 "BC848" H 2866 4955 50  0000 L CNN
+F 2 "Package_TO_SOT_SMD:SOT-23" H 2875 4925 50  0001 L CIN
+F 3 "http://www.infineon.com/dgdl/Infineon-BC847SERIES_BC848SERIES_BC849SERIES_BC850SERIES-DS-v01_01-en.pdf?fileId=db3a304314dca389011541d4630a1657" H 2675 5000 50  0001 L CNN
+	1    2675 5000
+	1    0    0    -1  
+$EndComp
+$Comp
+L Diode:1N4148 D1
+U 1 1 612460AF
+P 2175 5250
+F 0 "D1" V 2129 5330 50  0000 L CNN
+F 1 "1N4148" V 2220 5330 50  0000 L CNN
+F 2 "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal" H 2175 5075 50  0001 C CNN
+F 3 "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf" H 2175 5250 50  0001 C CNN
+	1    2175 5250
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R R1
+U 1 1 61246DAB
+P 1875 5000
+F 0 "R1" V 1668 5000 50  0000 C CNN
+F 1 "10K" V 1759 5000 50  0000 C CNN
+F 2 "" V 1805 5000 50  0001 C CNN
+F 3 "~" H 1875 5000 50  0001 C CNN
+	1    1875 5000
+	0    1    1    0   
+$EndComp
+$Comp
+L power:GND #PWR0101
+U 1 1 612497C4
+P 2175 5550
+F 0 "#PWR0101" H 2175 5300 50  0001 C CNN
+F 1 "GND" H 2180 5377 50  0000 C CNN
+F 2 "" H 2175 5550 50  0001 C CNN
+F 3 "" H 2175 5550 50  0001 C CNN
+	1    2175 5550
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR0102
+U 1 1 61249BC7
+P 2775 5550
+F 0 "#PWR0102" H 2775 5300 50  0001 C CNN
+F 1 "GND" H 2780 5377 50  0000 C CNN
+F 2 "" H 2775 5550 50  0001 C CNN
+F 3 "" H 2775 5550 50  0001 C CNN
+	1    2775 5550
+	1    0    0    -1  
+$EndComp
+$Comp
+L 4xxx:4040 U2
+U 1 1 6124A217
+P 3975 5250
+F 0 "U2" H 3975 6231 50  0000 C CNN
+F 1 "4040" H 3975 6140 50  0000 C CNN
+F 2 "" H 3975 5250 50  0001 C CNN
+F 3 "http://www.intersil.com/content/dam/Intersil/documents/cd40/cd4020bms-24bms-40bms.pdf" H 3975 5250 50  0001 C CNN
+	1    3975 5250
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR0103
+U 1 1 6124C70B
+P 3475 5550
+F 0 "#PWR0103" H 3475 5300 50  0001 C CNN
+F 1 "GND" H 3480 5377 50  0000 C CNN
+F 2 "" H 3475 5550 50  0001 C CNN
+F 3 "" H 3475 5550 50  0001 C CNN
+	1    3475 5550
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR0104
+U 1 1 6124CC0D
+P 3975 6250
+F 0 "#PWR0104" H 3975 6000 50  0001 C CNN
+F 1 "GND" H 3980 6077 50  0000 C CNN
+F 2 "" H 3975 6250 50  0001 C CNN
+F 3 "" H 3975 6250 50  0001 C CNN
+	1    3975 6250
+	1    0    0    -1  
+$EndComp
+$Comp
+L 4xxx:4070 U3
+U 1 1 6124ED24
+P 9475 5150
+F 0 "U3" H 9475 5475 50  0000 C CNN
+F 1 "4070" H 9475 5384 50  0000 C CNN
+F 2 "" H 9475 5150 50  0001 C CNN
+F 3 "http://www.intersil.com/content/dam/Intersil/documents/cd40/cd4070bms-77bms.pdf" H 9475 5150 50  0001 C CNN
+	1    9475 5150
+	1    0    0    -1  
+$EndComp
+$Comp
+L 4xxx:4070 U3
+U 2 1 61252F59
+P 9475 5800
+F 0 "U3" H 9475 6125 50  0000 C CNN
+F 1 "4070" H 9475 6034 50  0000 C CNN
+F 2 "" H 9475 5800 50  0001 C CNN
+F 3 "http://www.intersil.com/content/dam/Intersil/documents/cd40/cd4070bms-77bms.pdf" H 9475 5800 50  0001 C CNN
+	2    9475 5800
+	1    0    0    -1  
+$EndComp
+$Comp
+L 4xxx:4070 U3
+U 3 1 61253AB1
+P 5525 5200
+F 0 "U3" H 5525 5525 50  0000 C CNN
+F 1 "4070" H 5525 5434 50  0000 C CNN
+F 2 "" H 5525 5200 50  0001 C CNN
+F 3 "http://www.intersil.com/content/dam/Intersil/documents/cd40/cd4070bms-77bms.pdf" H 5525 5200 50  0001 C CNN
+	3    5525 5200
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R3
+U 1 1 6125C62F
+P 6275 5850
+F 0 "R3" V 6068 5850 50  0000 C CNN
+F 1 "100K" V 6159 5850 50  0000 C CNN
+F 2 "" V 6205 5850 50  0001 C CNN
+F 3 "~" H 6275 5850 50  0001 C CNN
+	1    6275 5850
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R R5
+U 1 1 6125D3B3
+P 6725 6100
+F 0 "R5" H 6655 6054 50  0000 R CNN
+F 1 "100K" H 6655 6145 50  0000 R CNN
+F 2 "" V 6655 6100 50  0001 C CNN
+F 3 "~" H 6725 6100 50  0001 C CNN
+	1    6725 6100
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:R R6
+U 1 1 6125D9EA
+P 6975 6100
+F 0 "R6" H 7045 6146 50  0000 L CNN
+F 1 "100K" H 7045 6055 50  0000 L CNN
+F 2 "" V 6905 6100 50  0001 C CNN
+F 3 "~" H 6975 6100 50  0001 C CNN
+	1    6975 6100
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R4
+U 1 1 6125DF45
+P 6725 5200
+F 0 "R4" V 6518 5200 50  0000 C CNN
+F 1 "100K" V 6609 5200 50  0000 C CNN
+F 2 "" V 6655 5200 50  0001 C CNN
+F 3 "~" H 6725 5200 50  0001 C CNN
+	1    6725 5200
+	0    1    1    0   
+$EndComp
+$Comp
+L Amplifier_Operational:TL082 U4
+U 1 1 612666F2
+P 8425 5450
+F 0 "U4" H 8425 5817 50  0000 C CNN
+F 1 "TL082" H 8425 5726 50  0000 C CNN
+F 2 "" H 8425 5450 50  0001 C CNN
+F 3 "http://www.ti.com/lit/ds/symlink/tl081.pdf" H 8425 5450 50  0001 C CNN
+	1    8425 5450
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector:Conn_01x02_Female J1
+U 1 1 612819CA
+P 1175 5100
+F 0 "J1" H 1067 4775 50  0000 C CNN
+F 1 "Bornera Señal de Entrada" H 1067 4866 50  0000 C CNN
+F 2 "" H 1175 5100 50  0001 C CNN
+F 3 "~" H 1175 5100 50  0001 C CNN
+	1    1175 5100
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	2025 5000 2175 5000
+Wire Wire Line
+	2175 5000 2175 5100
+Wire Wire Line
+	2475 5000 2175 5000
+Connection ~ 2175 5000
+Wire Wire Line
+	2175 5400 2175 5550
+Wire Wire Line
+	2775 5200 2775 5550
+Wire Wire Line
+	2775 4650 2775 4750
+Wire Wire Line
+	3475 4750 2775 4750
+Connection ~ 2775 4750
+Wire Wire Line
+	2775 4750 2775 4800
+Wire Wire Line
+	3475 5050 3475 5550
+Wire Wire Line
+	3975 6250 3975 6150
+$Comp
+L power:GND #PWR0109
+U 1 1 6129C2E2
+P 5025 5850
+F 0 "#PWR0109" H 5025 5600 50  0001 C CNN
+F 1 "GND" H 5030 5677 50  0000 C CNN
+F 2 "" H 5025 5850 50  0001 C CNN
+F 3 "" H 5025 5850 50  0001 C CNN
+	1    5025 5850
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR0110
+U 1 1 6129C767
+P 5075 5400
+F 0 "#PWR0110" H 5075 5150 50  0001 C CNN
+F 1 "GND" H 5080 5227 50  0000 C CNN
+F 2 "" H 5075 5400 50  0001 C CNN
+F 3 "" H 5075 5400 50  0001 C CNN
+	1    5075 5400
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5025 5850 5025 5750
+Wire Wire Line
+	5075 5400 5075 5300
+Wire Wire Line
+	5075 5300 5225 5300
+$Comp
+L Device:R_POT_US RV1
+U 1 1 612A1689
+P 6225 5200
+F 0 "RV1" V 6020 5200 50  0000 C CNN
+F 1 "20K" V 6111 5200 50  0000 C CNN
+F 2 "" H 6225 5200 50  0001 C CNN
+F 3 "~" H 6225 5200 50  0001 C CNN
+	1    6225 5200
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	6075 5200 6025 5200
+Wire Wire Line
+	6225 5350 6025 5350
+Wire Wire Line
+	6025 5350 6025 5200
+Connection ~ 6025 5200
+$Comp
+L Device:C C3
+U 1 1 612A5902
+P 7225 4900
+F 0 "C3" H 7340 4946 50  0000 L CNN
+F 1 "0.022uF" H 7340 4855 50  0000 L CNN
+F 2 "" H 7263 4750 50  0001 C CNN
+F 3 "~" H 7225 4900 50  0001 C CNN
+	1    7225 4900
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6375 5200 6575 5200
+Wire Wire Line
+	5025 5750 5275 5750
+$Comp
+L 4xxx:4070 U3
+U 4 1 61254F20
+P 5575 5850
+F 0 "U3" H 5575 6175 50  0000 C CNN
+F 1 "4070" H 5575 6084 50  0000 C CNN
+F 2 "" H 5575 5850 50  0001 C CNN
+F 3 "http://www.intersil.com/content/dam/Intersil/documents/cd40/cd4070bms-77bms.pdf" H 5575 5850 50  0001 C CNN
+	4    5575 5850
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5825 5200 5925 5200
+Wire Wire Line
+	5875 5850 5925 5850
+Wire Wire Line
+	5175 5100 5175 5650
+Wire Wire Line
+	5175 5950 5275 5950
+Wire Wire Line
+	4475 5350 4925 5350
+Wire Wire Line
+	5175 5100 5225 5100
+Wire Wire Line
+	6425 5850 6725 5850
+Wire Wire Line
+	6975 5850 6975 5950
+Wire Wire Line
+	6725 5950 6725 5850
+Connection ~ 6725 5850
+Wire Wire Line
+	6725 5850 6975 5850
+$Comp
+L power:GND #PWR0111
+U 1 1 612BF2EB
+P 6725 6400
+F 0 "#PWR0111" H 6725 6150 50  0001 C CNN
+F 1 "GND" H 6730 6227 50  0000 C CNN
+F 2 "" H 6725 6400 50  0001 C CNN
+F 3 "" H 6725 6400 50  0001 C CNN
+	1    6725 6400
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6725 6400 6725 6250
+Wire Wire Line
+	6875 5200 7225 5200
+Wire Wire Line
+	8125 5200 8125 5350
+Wire Wire Line
+	7225 5050 7225 5200
+Connection ~ 7225 5200
+Wire Wire Line
+	7225 5200 8125 5200
+$Comp
+L power:GND #PWR0112
+U 1 1 612C464A
+P 7625 4850
+F 0 "#PWR0112" H 7625 4600 50  0001 C CNN
+F 1 "GND" H 7630 4677 50  0000 C CNN
+F 2 "" H 7625 4850 50  0001 C CNN
+F 3 "" H 7625 4850 50  0001 C CNN
+	1    7625 4850
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7225 4750 7225 4700
+Wire Wire Line
+	7225 4700 7625 4700
+Wire Wire Line
+	7625 4700 7625 4850
+Wire Wire Line
+	8125 5550 8125 5850
+Wire Wire Line
+	8125 5850 6975 5850
+Connection ~ 6975 5850
+$Comp
+L Amplifier_Operational:TL082 U4
+U 3 1 612C6E00
+P 8425 5450
+F 0 "U4" H 8383 5496 50  0000 L CNN
+F 1 "TL082" H 8383 5405 50  0000 L CNN
+F 2 "" H 8425 5450 50  0001 C CNN
+F 3 "http://www.ti.com/lit/ds/symlink/tl081.pdf" H 8425 5450 50  0001 C CNN
+	3    8425 5450
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR0113
+U 1 1 612CAC49
+P 8325 6000
+F 0 "#PWR0113" H 8325 5750 50  0001 C CNN
+F 1 "GND" H 8330 5827 50  0000 C CNN
+F 2 "" H 8325 6000 50  0001 C CNN
+F 3 "" H 8325 6000 50  0001 C CNN
+	1    8325 6000
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	8325 6000 8325 5750
+Wire Wire Line
+	8725 5450 9175 5450
+Wire Wire Line
+	9175 5450 9175 5250
+Wire Wire Line
+	9175 5700 9175 5450
+Connection ~ 9175 5450
+Wire Wire Line
+	9175 5050 9025 5050
+Wire Wire Line
+	9025 5050 9025 5900
+Wire Wire Line
+	9025 5900 9175 5900
+Wire Wire Line
+	4925 5350 4925 5650
+Wire Wire Line
+	4925 6700 9025 6700
+Wire Wire Line
+	9025 6700 9025 5900
+Connection ~ 9025 5900
+Wire Wire Line
+	9975 5800 9775 5800
+Wire Wire Line
+	5175 5650 4925 5650
+Connection ~ 5175 5650
+Wire Wire Line
+	5175 5650 5175 5950
+Connection ~ 4925 5650
+Wire Wire Line
+	4925 5650 4925 6700
+$Comp
+L power:GND #PWR0117
+U 1 1 612F2BA2
+P 1425 5250
+F 0 "#PWR0117" H 1425 5000 50  0001 C CNN
+F 1 "GND" H 1430 5077 50  0000 C CNN
+F 2 "" H 1425 5250 50  0001 C CNN
+F 3 "" H 1425 5250 50  0001 C CNN
+	1    1425 5250
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1375 5100 1425 5100
+Wire Wire Line
+	1425 5100 1425 5250
+Wire Wire Line
+	1375 5000 1725 5000
+Wire Wire Line
+	5925 5200 5925 5850
+Connection ~ 5925 5200
+Wire Wire Line
+	5925 5200 6025 5200
+Connection ~ 5925 5850
+Wire Wire Line
+	5925 5850 6125 5850
+NoConn ~ 4475 4750
+NoConn ~ 4475 4850
+NoConn ~ 4475 4950
+NoConn ~ 4475 5050
+NoConn ~ 4475 5150
+NoConn ~ 4475 5250
+NoConn ~ 4475 5450
+NoConn ~ 4475 5550
+NoConn ~ 4475 5650
+NoConn ~ 4475 5750
+NoConn ~ 4475 5850
+$Sheet
+S 5650 1400 2075 400 
+U 612CDA12
+F0 "4-20mA converter" 50
+F1 "Conversor_4-20mA.sch" 50
+F2 "IN_converter_4-20mA" I L 5650 1600 50 
+F3 "OUT_converter_4-20mA" O R 7725 1600 50 
+$EndSheet
+Text GLabel 2850 4000 2    50   Input ~ 0
+15V
+Wire Wire Line
+	2775 4000 2850 4000
+Wire Wire Line
+	2775 4000 2775 4350
+Wire Wire Line
+	3975 4000 3975 4450
+Text GLabel 4100 4000 2    50   Input ~ 0
+15V
+Wire Wire Line
+	4100 4000 3975 4000
+Text GLabel 8400 3950 2    50   Input ~ 0
+15V
+Wire Wire Line
+	8400 3950 8325 3950
+Wire Wire Line
+	8325 3950 8325 5150
+Text GLabel 7100 6525 2    50   Input ~ 0
+15V
+Wire Wire Line
+	7100 6525 6975 6525
+Wire Wire Line
+	6975 6525 6975 6250
+$Sheet
+S 13100 5350 1500 450 
+U 614178A2
+F0 "Comparador" 50
+F1 "Comparador.sch" 50
+$EndSheet
+Wire Wire Line
+	9975 5150 9975 5475
+$Sheet
+S 10400 5275 1225 400 
+U 6142C92E
+F0 "Pasabajos" 50
+F1 "Pasa Bajos.sch" 50
+$EndSheet
+Wire Wire Line
+	9775 5150 9975 5150
+Text GLabel 10425 5475 2    50   Input ~ 0
+in_pasabajos
+Wire Wire Line
+	9975 5475 10425 5475
+Connection ~ 9975 5475
+Wire Wire Line
+	9975 5475 9975 5800
+Text GLabel 11600 5475 0    50   Input ~ 0
+out_pasabajos
+Text GLabel 13125 5575 2    50   Input ~ 0
+in_comparador
+Text GLabel 14575 5575 0    50   Input ~ 0
+out_comparador
+Text Notes 1875 3575 0    207  Italic 0
+Conversor frecuencia a tensión
+$Sheet
+S 14975 5350 1725 475 
+U 614A65FA
+F0 "Temporizador" 50
+F1 "Temporizador.sch" 50
+$EndSheet
+Text GLabel 15000 5575 2    50   Input ~ 0
+in_temporizador
+Wire Wire Line
+	15000 5575 14575 5575
+Text GLabel 16675 5575 0    50   Input ~ 0
+out_temporizador
+$Comp
+L Amplifier_Operational:TL082 U?
+U 1 1 614F38D4
+P 12250 5575
+F 0 "U?" H 12300 5825 50  0000 C CNN
+F 1 "TL082" H 12350 5750 50  0000 C CNN
+F 2 "" H 12250 5575 50  0001 C CNN
+F 3 "http://www.ti.com/lit/ds/symlink/tl081.pdf" H 12250 5575 50  0001 C CNN
+	1    12250 5575
+	1    0    0    -1  
+$EndComp
+$Comp
+L Amplifier_Operational:TL082 U?
+U 3 1 614F38DA
+P 12250 5575
+F 0 "U?" H 12208 5621 50  0000 L CNN
+F 1 "TL082" H 12208 5530 50  0000 L CNN
+F 2 "" H 12250 5575 50  0001 C CNN
+F 3 "http://www.ti.com/lit/ds/symlink/tl081.pdf" H 12250 5575 50  0001 C CNN
+	3    12250 5575
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	11950 5475 11600 5475
+Wire Wire Line
+	11950 5675 11750 5675
+Wire Wire Line
+	11750 5675 11750 6200
+Wire Wire Line
+	11750 6200 12675 6200
+Wire Wire Line
+	12675 6200 12675 5575
+Wire Wire Line
+	12550 5575 12675 5575
+Connection ~ 12675 5575
+Wire Wire Line
+	12675 5575 13100 5575
+$Comp
+L power:GND #PWR?
+U 1 1 615133DF
+P 12150 5975
+F 0 "#PWR?" H 12150 5725 50  0001 C CNN
+F 1 "GND" H 12325 5900 50  0000 C CNN
+F 2 "" H 12150 5975 50  0001 C CNN
+F 3 "" H 12150 5975 50  0001 C CNN
+	1    12150 5975
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	12150 5975 12150 5875
+Text GLabel 12200 4925 2    50   Input ~ 0
+15V
+Wire Wire Line
+	12150 5275 12150 4925
+Wire Wire Line
+	12150 4925 12200 4925
+$Sheet
+S 2975 1350 925  700 
+U 612E6148
+F0 "Alimentacion" 50
+F1 "Alimentacion.sch" 50
+$EndSheet
+$EndSCHEMATC
