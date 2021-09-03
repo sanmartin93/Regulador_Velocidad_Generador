@@ -19,8 +19,8 @@ U 1 1 612EE8D8
 P 5875 3200
 F 0 "U1" H 5875 3442 50  0000 C CNN
 F 1 "L7815" H 5875 3351 50  0000 C CNN
-F 2 "" H 5900 3050 50  0001 L CIN
-F 3 "http://www.st.com/content/ccc/resource/technical/document/datasheet/41/4f/b3/b0/12/d4/47/88/CD00000444.pdf/files/CD00000444.pdf/jcr:content/translations/en.CD00000444.pdf" H 5875 3150 50  0001 C CNN
+F 2 "Package_TO_SOT_SMD:TO-263-3_TabPin2" H 5900 3050 50  0001 L CIN
+F 3 "https://www.digikey.com/es/products/detail/stmicroelectronics/L7815ACD2T-TR/1663423" H 5875 3150 50  0001 C CNN
 	1    5875 3200
 	1    0    0    -1  
 $EndComp
