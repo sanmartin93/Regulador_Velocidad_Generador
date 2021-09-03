@@ -21,7 +21,7 @@ AR Path="/61312797" Ref="R?"  Part="1"
 AR Path="/612E15A4/61312797" Ref="R2"  Part="1" 
 F 0 "R2" H 2920 2146 50  0000 L CNN
 F 1 "100K" H 2920 2055 50  0000 L CNN
-F 2 "" V 2780 2100 50  0001 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder" V 2780 2100 50  0001 C CNN
 F 3 "~" H 2850 2100 50  0001 C CNN
 	1    2850 2100
 	1    0    0    -1  
@@ -60,7 +60,7 @@ AR Path="/613127A9" Ref="R?"  Part="1"
 AR Path="/612E15A4/613127A9" Ref="R1"  Part="1" 
 F 0 "R1" V 1743 2600 50  0000 C CNN
 F 1 "10K" V 1834 2600 50  0000 C CNN
-F 2 "" V 1880 2600 50  0001 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder" V 1880 2600 50  0001 C CNN
 F 3 "~" H 1950 2600 50  0001 C CNN
 	1    1950 2600
 	0    1    1    0   
@@ -99,8 +99,8 @@ AR Path="/613127BB" Ref="U?"  Part="1"
 AR Path="/612E15A4/613127BB" Ref="U2"  Part="1" 
 F 0 "U2" H 4050 3831 50  0000 C CNN
 F 1 "4040" H 4050 3740 50  0000 C CNN
-F 2 "" H 4050 2850 50  0001 C CNN
-F 3 "http://www.intersil.com/content/dam/Intersil/documents/cd40/cd4020bms-24bms-40bms.pdf" H 4050 2850 50  0001 C CNN
+F 2 "Package_SO:SOIC-16_3.9x9.9mm_P1.27mm" H 4050 2850 50  0001 C CNN
+F 3 "https://www.digikey.com/es/products/detail/texas-instruments/CD4040BM/1691010" H 4050 2850 50  0001 C CNN
 	1    4050 2850
 	1    0    0    -1  
 $EndComp
@@ -139,7 +139,7 @@ AR Path="/612E15A4/613127CD" Ref="U3"  Part="1"
 F 0 "U3" H 9550 3075 50  0000 C CNN
 F 1 "4070" H 9550 2984 50  0000 C CNN
 F 2 "" H 9550 2750 50  0001 C CNN
-F 3 "http://www.intersil.com/content/dam/Intersil/documents/cd40/cd4070bms-77bms.pdf" H 9550 2750 50  0001 C CNN
+F 3 "https://www.digikey.com/es/products/detail/texas-instruments/CD4070BMT/1691302" H 9550 2750 50  0001 C CNN
 	1    9550 2750
 	1    0    0    -1  
 $EndComp
@@ -152,7 +152,7 @@ AR Path="/612E15A4/613127D3" Ref="U3"  Part="2"
 F 0 "U3" H 9550 3725 50  0000 C CNN
 F 1 "4070" H 9550 3634 50  0000 C CNN
 F 2 "" H 9550 3400 50  0001 C CNN
-F 3 "http://www.intersil.com/content/dam/Intersil/documents/cd40/cd4070bms-77bms.pdf" H 9550 3400 50  0001 C CNN
+F 3 "https://www.digikey.com/es/products/detail/texas-instruments/CD4070BMT/1691302" H 9550 3400 50  0001 C CNN
 	2    9550 3400
 	1    0    0    -1  
 $EndComp
@@ -165,7 +165,7 @@ AR Path="/612E15A4/613127D9" Ref="U3"  Part="3"
 F 0 "U3" H 5600 3125 50  0000 C CNN
 F 1 "4070" H 5600 3034 50  0000 C CNN
 F 2 "" H 5600 2800 50  0001 C CNN
-F 3 "http://www.intersil.com/content/dam/Intersil/documents/cd40/cd4070bms-77bms.pdf" H 5600 2800 50  0001 C CNN
+F 3 "https://www.digikey.com/es/products/detail/texas-instruments/CD4070BMT/1691302" H 5600 2800 50  0001 C CNN
 	3    5600 2800
 	1    0    0    -1  
 $EndComp
@@ -178,7 +178,7 @@ AR Path="/612E15A4/613127DF" Ref="U3"  Part="5"
 F 0 "U3" V 5083 950 50  0000 C CNN
 F 1 "4070" V 5174 950 50  0000 C CNN
 F 2 "" H 5450 950 50  0001 C CNN
-F 3 "http://www.intersil.com/content/dam/Intersil/documents/cd40/cd4070bms-77bms.pdf" H 5450 950 50  0001 C CNN
+F 3 "https://www.digikey.com/es/products/detail/texas-instruments/CD4070BMT/1691302" H 5450 950 50  0001 C CNN
 	5    5450 950 
 	0    1    1    0   
 $EndComp
@@ -190,7 +190,7 @@ AR Path="/613127E5" Ref="R?"  Part="1"
 AR Path="/612E15A4/613127E5" Ref="R3"  Part="1" 
 F 0 "R3" V 6143 3450 50  0000 C CNN
 F 1 "100K" V 6234 3450 50  0000 C CNN
-F 2 "" V 6280 3450 50  0001 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder" V 6280 3450 50  0001 C CNN
 F 3 "~" H 6350 3450 50  0001 C CNN
 	1    6350 3450
 	0    1    1    0   
@@ -203,7 +203,7 @@ AR Path="/613127EB" Ref="R?"  Part="1"
 AR Path="/612E15A4/613127EB" Ref="R5"  Part="1" 
 F 0 "R5" H 6730 3654 50  0000 R CNN
 F 1 "100K" H 6730 3745 50  0000 R CNN
-F 2 "" V 6730 3700 50  0001 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder" V 6730 3700 50  0001 C CNN
 F 3 "~" H 6800 3700 50  0001 C CNN
 	1    6800 3700
 	-1   0    0    1   
@@ -216,7 +216,7 @@ AR Path="/613127F1" Ref="R?"  Part="1"
 AR Path="/612E15A4/613127F1" Ref="R6"  Part="1" 
 F 0 "R6" H 7120 3746 50  0000 L CNN
 F 1 "100K" H 7120 3655 50  0000 L CNN
-F 2 "" V 6980 3700 50  0001 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder" V 6980 3700 50  0001 C CNN
 F 3 "~" H 7050 3700 50  0001 C CNN
 	1    7050 3700
 	1    0    0    -1  
@@ -229,7 +229,7 @@ AR Path="/613127F7" Ref="R?"  Part="1"
 AR Path="/612E15A4/613127F7" Ref="R4"  Part="1" 
 F 0 "R4" V 6593 2800 50  0000 C CNN
 F 1 "100K" V 6684 2800 50  0000 C CNN
-F 2 "" V 6730 2800 50  0001 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder" V 6730 2800 50  0001 C CNN
 F 3 "~" H 6800 2800 50  0001 C CNN
 	1    6800 2800
 	0    1    1    0   
@@ -242,7 +242,7 @@ AR Path="/613127FD" Ref="U?"  Part="1"
 AR Path="/612E15A4/613127FD" Ref="U4"  Part="1" 
 F 0 "U4" H 8500 3417 50  0000 C CNN
 F 1 "TL082" H 8500 3326 50  0000 C CNN
-F 2 "" H 8500 3050 50  0001 C CNN
+F 2 "Package_SO:SOIC-8-1EP_3.9x4.9mm_P1.27mm_EP2.29x3mm" H 8500 3050 50  0001 C CNN
 F 3 "http://www.ti.com/lit/ds/symlink/tl081.pdf" H 8500 3050 50  0001 C CNN
 	1    8500 3050
 	1    0    0    -1  
@@ -342,7 +342,7 @@ AR Path="/6131282E" Ref="C?"  Part="1"
 AR Path="/612E15A4/6131282E" Ref="C3"  Part="1" 
 F 0 "C3" H 7415 2546 50  0000 L CNN
 F 1 "0.022uF" H 7415 2455 50  0000 L CNN
-F 2 "" H 7338 2350 50  0001 C CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder" H 7338 2350 50  0001 C CNN
 F 3 "~" H 7300 2500 50  0001 C CNN
 	1    7300 2500
 	1    0    0    -1  
@@ -360,7 +360,7 @@ AR Path="/612E15A4/61312836" Ref="U3"  Part="4"
 F 0 "U3" H 5650 3775 50  0000 C CNN
 F 1 "4070" H 5650 3684 50  0000 C CNN
 F 2 "" H 5650 3450 50  0001 C CNN
-F 3 "http://www.intersil.com/content/dam/Intersil/documents/cd40/cd4070bms-77bms.pdf" H 5650 3450 50  0001 C CNN
+F 3 "https://www.digikey.com/es/products/detail/texas-instruments/CD4070BMT/1691302" H 5650 3450 50  0001 C CNN
 	4    5650 3450
 	1    0    0    -1  
 $EndComp
@@ -441,7 +441,7 @@ AR Path="/6131285F" Ref="U?"  Part="3"
 AR Path="/612E15A4/6131285F" Ref="U4"  Part="3" 
 F 0 "U4" H 8908 1996 50  0000 L CNN
 F 1 "TL082" H 8908 1905 50  0000 L CNN
-F 2 "" H 8950 1950 50  0001 C CNN
+F 2 "Package_SO:SOIC-8-1EP_3.9x4.9mm_P1.27mm_EP2.29x3mm" H 8950 1950 50  0001 C CNN
 F 3 "http://www.ti.com/lit/ds/symlink/tl081.pdf" H 8950 1950 50  0001 C CNN
 	3    8950 1950
 	1    0    0    -1  
