@@ -146,8 +146,8 @@ AR Path="/61322896/613422FD" Ref="U5"  Part="1"
 AR Path="/612F0357/613422FD" Ref="U?"  Part="1" 
 F 0 "U5" H 5900 4717 50  0000 C CNN
 F 1 "TL082" H 5900 4626 50  0000 C CNN
-F 2 "Package_SO:HSOP-8-1EP_3.9x4.9mm_P1.27mm_EP2.41x3.1mm_ThermalVias" H 5900 4350 50  0001 C CNN
-F 3 "http://www.ti.com/lit/ds/symlink/tl081.pdf" H 5900 4350 50  0001 C CNN
+F 2 "Package_SO:SOIC-8-1EP_3.9x4.9mm_P1.27mm_EP2.29x3mm" H 5900 4350 50  0001 C CNN
+F 3 "https://www.digikey.com/es/products/detail/texas-instruments/TL082CDE4/13472954" H 5900 4350 50  0001 C CNN
 	1    5900 4350
 	1    0    0    -1  
 $EndComp
@@ -159,8 +159,8 @@ AR Path="/61322896/61344A8C" Ref="U5"  Part="2"
 AR Path="/612F0357/61344A8C" Ref="U?"  Part="2" 
 F 0 "U5" H 3700 4817 50  0000 C CNN
 F 1 "TL082" H 3700 4726 50  0000 C CNN
-F 2 "Package_SO:HSOP-8-1EP_3.9x4.9mm_P1.27mm_EP2.41x3.1mm_ThermalVias" H 3700 4450 50  0001 C CNN
-F 3 "http://www.ti.com/lit/ds/symlink/tl081.pdf" H 3700 4450 50  0001 C CNN
+F 2 "Package_SO:SOIC-8-1EP_3.9x4.9mm_P1.27mm_EP2.29x3mm" H 3700 4450 50  0001 C CNN
+F 3 "https://www.digikey.com/es/products/detail/texas-instruments/TL082CDE4/13472954" H 3700 4450 50  0001 C CNN
 	2    3700 4450
 	1    0    0    -1  
 $EndComp
@@ -199,7 +199,7 @@ AR Path="/61322896/61348A58" Ref="RV2"  Part="1"
 AR Path="/612F0357/61348A58" Ref="RV?"  Part="1" 
 F 0 "RV2" H 3580 2554 50  0000 R CNN
 F 1 "10K" H 3580 2645 50  0000 R CNN
-F 2 "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder" H 3650 2600 50  0001 C CNN
+F 2 "" H 3650 2600 50  0001 C CNN
 F 3 "~" H 3650 2600 50  0001 C CNN
 	1    3650 2600
 	-1   0    0    1   
@@ -467,8 +467,8 @@ AR Path="/61322896/6137FE67" Ref="U5"  Part="3"
 AR Path="/612F0357/6137FE67" Ref="U?"  Part="3" 
 F 0 "U5" H 4958 2296 50  0000 L CNN
 F 1 "TL082" H 4958 2205 50  0000 L CNN
-F 2 "Package_SO:HSOP-8-1EP_3.9x4.9mm_P1.27mm_EP2.41x3.1mm_ThermalVias" H 5000 2250 50  0001 C CNN
-F 3 "http://www.ti.com/lit/ds/symlink/tl081.pdf" H 5000 2250 50  0001 C CNN
+F 2 "Package_SO:SOIC-8-1EP_3.9x4.9mm_P1.27mm_EP2.29x3mm" H 5000 2250 50  0001 C CNN
+F 3 "https://www.digikey.com/es/products/detail/texas-instruments/TL082CDE4/13472954" H 5000 2250 50  0001 C CNN
 	3    5000 2250
 	1    0    0    -1  
 $EndComp
@@ -567,9 +567,32 @@ F 3 "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf" H 7400 
 	0    1    1    0   
 $EndComp
 Wire Wire Line
-	7400 4150 7400 3900
+	7400 4150 7400 4000
 Text HLabel 7400 3200 1    50   Input ~ 0
 24V
 Wire Wire Line
-	7400 3200 7400 3600
+	7400 3200 7400 3400
+$Comp
+L Relay:DIPxx-1Cxx-51x K?
+U 1 1 61350345
+P 8250 3700
+AR Path="/61350345" Ref="K?"  Part="1" 
+AR Path="/61322896/61350345" Ref="K?"  Part="1" 
+F 0 "K?" H 8680 3746 50  0000 L CNN
+F 1 "DIPxx-1Cxx-51x" H 8680 3655 50  0000 L CNN
+F 2 "Relay_THT:Relay_StandexMeder_DIP_LowProfile" H 8700 3650 50  0001 L CNN
+F 3 "https://standexelectronics.com/wp-content/uploads/datasheet_reed_relay_DIP.pdf" H 8250 3700 50  0001 C CNN
+	1    8250 3700
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	8050 3400 7400 3400
+Connection ~ 7400 3400
+Wire Wire Line
+	7400 3400 7400 3600
+Wire Wire Line
+	8050 4000 7400 4000
+Connection ~ 7400 4000
+Wire Wire Line
+	7400 4000 7400 3900
 $EndSCHEMATC
