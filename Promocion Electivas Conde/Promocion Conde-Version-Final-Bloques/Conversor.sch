@@ -16,8 +16,8 @@ $EndDescr
 $Sheet
 S 2050 2750 900  1050
 U 612E15A4
-F0 "Entrada" 50
-F1 "Entrada.sch" 50
+F0 "Conversor_f_a_V" 50
+F1 "Conversor_f_a_V.sch" 50
 F2 "A" I R 2950 2950 50 
 F3 "15V" I R 2950 2800 50 
 $EndSheet
