@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 1 4
+Sheet 1 5
 Title ""
 Date ""
 Rev ""
@@ -32,8 +32,8 @@ $EndSheet
 $Sheet
 S 3900 2150 850  700 
 U 61322896
-F0 "Salida_relé_1" 50
-F1 "Salida_relé_1.sch" 50
+F0 "Comparador_y_salida_relé_1" 50
+F1 "Comparador_y_salida_relé_1.sch" 50
 F2 "A" I L 3900 2650 50 
 F3 "15V" I L 3900 2450 50 
 F4 "24V" I L 3900 2250 50 
@@ -45,7 +45,7 @@ Wire Wire Line
 Wire Wire Line
 	3050 2150 2950 2150
 Wire Wire Line
-	2950 2950 3400 2950
+	2950 2950 3150 2950
 Wire Wire Line
 	3400 2950 3400 2650
 Wire Wire Line
@@ -61,4 +61,28 @@ Wire Wire Line
 	3550 2250 3550 2000
 Wire Wire Line
 	3550 2000 2950 2000
+Wire Wire Line
+	4100 3850 4200 3850
+$Sheet
+S 3200 3800 900  1050
+U 6184FF73
+F0 "Conversor_V_a_4-20mA" 50
+F1 "Conversor_V_a_4-20mA.sch" 50
+F2 "A" I L 3200 4000 50 
+F3 "15V" I R 4100 3850 50 
+$EndSheet
+Wire Wire Line
+	4200 3850 4200 3050
+Wire Wire Line
+	4200 3050 3050 3050
+Wire Wire Line
+	3050 3050 3050 2800
+Connection ~ 3050 2800
+Wire Wire Line
+	3200 4000 3150 4000
+Wire Wire Line
+	3150 4000 3150 2950
+Connection ~ 3150 2950
+Wire Wire Line
+	3150 2950 3400 2950
 $EndSCHEMATC

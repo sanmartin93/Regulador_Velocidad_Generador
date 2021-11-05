@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 1 4
+Sheet 1 5
 Title ""
 Date ""
 Rev ""
@@ -16,8 +16,8 @@ $EndDescr
 $Sheet
 S 2050 2750 900  1050
 U 612E15A4
-F0 "Entrada" 50
-F1 "Entrada.sch" 50
+F0 "Conversor_f_a_V" 50
+F1 "Conversor_f_a_V.sch" 50
 F2 "A" I R 2950 2950 50 
 F3 "15V" I R 2950 2800 50 
 $EndSheet
@@ -32,8 +32,8 @@ $EndSheet
 $Sheet
 S 3900 2150 850  700 
 U 61322896
-F0 "Salida_relé_1" 50
-F1 "Salida_relé_1.sch" 50
+F0 "Comparador_y_salida_relé_1" 50
+F1 "Comparador_y_salida_relé_1.sch" 50
 F2 "A" I L 3900 2650 50 
 F3 "15V" I L 3900 2450 50 
 F4 "24V" I L 3900 2250 50 
@@ -61,4 +61,18 @@ Wire Wire Line
 	3550 2250 3550 2000
 Wire Wire Line
 	3550 2000 2950 2000
+Wire Wire Line
+	2950 4350 3050 4350
+Wire Wire Line
+	3050 4350 3050 4000
+Wire Wire Line
+	2950 4500 3400 4500
+$Sheet
+S 2050 4300 900  1050
+U 6184FF73
+F0 "Conversor_V_a_4-20mA" 50
+F1 "Conversor_V_a_4-20mA.sch" 50
+F2 "A" I R 2950 4500 50 
+F3 "15V" I R 2950 4350 50 
+$EndSheet
 $EndSCHEMATC
