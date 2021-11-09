@@ -641,8 +641,8 @@ P 8250 3700
 AR Path="/61350345" Ref="K?"  Part="1" 
 AR Path="/61322896/61350345" Ref="K1"  Part="1" 
 AR Path="/618B3478/61350345" Ref="K?"  Part="1" 
-AR Path="/618B375A/61350345" Ref="K?"  Part="1" 
-F 0 "K?" H 8680 3746 50  0000 L CNN
+AR Path="/618B375A/61350345" Ref="K3"  Part="1" 
+F 0 "K3" H 8680 3746 50  0000 L CNN
 F 1 "DIPxx-1Cxx-51x" H 8680 3655 50  0000 L CNN
 F 2 "Relay_THT:Relay_StandexMeder_DIP_LowProfile" H 8700 3650 50  0001 L CNN
 F 3 "https://standexelectronics.com/wp-content/uploads/datasheet_reed_relay_DIP.pdf" H 8250 3700 50  0001 C CNN
