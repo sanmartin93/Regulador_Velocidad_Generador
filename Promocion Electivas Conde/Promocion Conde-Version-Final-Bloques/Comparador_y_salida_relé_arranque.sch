@@ -467,8 +467,6 @@ Wire Wire Line
 Wire Wire Line
 	4150 1450 4150 1700
 Wire Wire Line
-	4150 1700 4900 1700
-Wire Wire Line
 	6200 1700 6200 1900
 Connection ~ 4150 1700
 Wire Wire Line
@@ -510,40 +508,35 @@ Wire Wire Line
 $Comp
 L Amplifier_Operational:TL082 U5
 U 3 1 6137FE67
-P 5000 2250
+P 3950 4450
 AR Path="/61322896/6137FE67" Ref="U5"  Part="3" 
 AR Path="/612F0357/6137FE67" Ref="U?"  Part="3" 
 AR Path="/618B3478/6137FE67" Ref="U?"  Part="3" 
 AR Path="/618B375A/6137FE67" Ref="U?"  Part="3" 
-F 0 "U5" H 4958 2296 50  0000 L CNN
-F 1 "TL082" H 4958 2205 50  0000 L CNN
-F 2 "Package_SO:SOIC-8-1EP_3.9x4.9mm_P1.27mm_EP2.29x3mm" H 5000 2250 50  0001 C CNN
-F 3 "https://www.digikey.com/es/products/detail/texas-instruments/TL082CDE4/13472954" H 5000 2250 50  0001 C CNN
-	3    5000 2250
+F 0 "U5" H 3908 4496 50  0000 L CNN
+F 1 "TL082" H 3908 4405 50  0000 L CNN
+F 2 "Package_SO:SOIC-8-1EP_3.9x4.9mm_P1.27mm_EP2.29x3mm" H 3950 4450 50  0001 C CNN
+F 3 "https://www.digikey.com/es/products/detail/texas-instruments/TL082CDE4/13472954" H 3950 4450 50  0001 C CNN
+	3    3950 4450
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	4900 1950 4900 1700
-Connection ~ 4900 1700
-Wire Wire Line
-	4900 1700 6200 1700
 $Comp
 L power:GND #PWR0121
 U 1 1 6138D593
-P 4900 2650
+P 3850 4850
 AR Path="/61322896/6138D593" Ref="#PWR0121"  Part="1" 
 AR Path="/612F0357/6138D593" Ref="#PWR?"  Part="1" 
 AR Path="/618B3478/6138D593" Ref="#PWR?"  Part="1" 
 AR Path="/618B375A/6138D593" Ref="#PWR?"  Part="1" 
-F 0 "#PWR0121" H 4900 2400 50  0001 C CNN
-F 1 "GND" H 4905 2477 50  0000 C CNN
-F 2 "" H 4900 2650 50  0001 C CNN
-F 3 "" H 4900 2650 50  0001 C CNN
-	1    4900 2650
+F 0 "#PWR0121" H 3850 4600 50  0001 C CNN
+F 1 "GND" H 3855 4677 50  0000 C CNN
+F 2 "" H 3850 4850 50  0001 C CNN
+F 3 "" H 3850 4850 50  0001 C CNN
+	1    3850 4850
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	4900 2650 4900 2550
+	3850 4850 3850 4750
 $Comp
 L Device:R R18
 U 1 1 6138EBE2
@@ -659,4 +652,15 @@ Wire Wire Line
 Connection ~ 7400 4000
 Wire Wire Line
 	7400 4000 7400 3900
+Wire Wire Line
+	4150 1700 4500 1700
+Wire Wire Line
+	3850 4150 3850 4000
+Wire Wire Line
+	3850 4000 4500 4000
+Wire Wire Line
+	4500 4000 4500 1700
+Connection ~ 4500 1700
+Wire Wire Line
+	4500 1700 6200 1700
 $EndSCHEMATC
