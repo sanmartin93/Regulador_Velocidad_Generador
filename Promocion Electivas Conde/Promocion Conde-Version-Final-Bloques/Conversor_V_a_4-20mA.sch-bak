@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 5 5
+Sheet 5 6
 Title ""
 Date ""
 Rev ""
@@ -14,65 +14,65 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Comp
-L Device:R_POT_TRIM_US RV?
+L Device:R_POT_TRIM_US RV4
 U 1 1 61856B19
 P 3250 3750
-F 0 "RV?" H 3182 3796 50  0000 R CNN
+F 0 "RV4" H 3182 3796 50  0000 R CNN
 F 1 "10k" H 3182 3705 50  0000 R CNN
-F 2 "" H 3250 3750 50  0001 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder" H 3250 3750 50  0001 C CNN
 F 3 "~" H 3250 3750 50  0001 C CNN
 	1    3250 3750
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:R_POT_TRIM_US RV?
+L Device:R_POT_TRIM_US RV5
 U 1 1 6185887C
 P 3800 3050
-F 0 "RV?" H 3732 3096 50  0000 R CNN
+F 0 "RV5" H 3732 3096 50  0000 R CNN
 F 1 "10k" H 3732 3005 50  0000 R CNN
-F 2 "" H 3800 3050 50  0001 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder" H 3800 3050 50  0001 C CNN
 F 3 "~" H 3800 3050 50  0001 C CNN
 	1    3800 3050
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:R R?
+L Device:R R21
 U 1 1 61859CCC
 P 5150 3850
-F 0 "R?" V 4943 3850 50  0000 C CNN
+F 0 "R21" V 4943 3850 50  0000 C CNN
 F 1 "1k" V 5034 3850 50  0000 C CNN
-F 2 "" V 5080 3850 50  0001 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder" V 5080 3850 50  0001 C CNN
 F 3 "~" H 5150 3850 50  0001 C CNN
 	1    5150 3850
 	0    1    1    0   
 $EndComp
 $Comp
-L Device:R R?
+L Device:R R22
 U 1 1 61859D46
 P 5800 3400
-F 0 "R?" H 5870 3446 50  0000 L CNN
+F 0 "R22" H 5870 3446 50  0000 L CNN
 F 1 "320" H 5870 3355 50  0000 L CNN
-F 2 "" V 5730 3400 50  0001 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder" V 5730 3400 50  0001 C CNN
 F 3 "~" H 5800 3400 50  0001 C CNN
 	1    5800 3400
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:R R?
+L Device:R R20
 U 1 1 6185A023
 P 4100 3400
-F 0 "R?" H 4170 3446 50  0000 L CNN
+F 0 "R20" H 4170 3446 50  0000 L CNN
 F 1 "R" H 4170 3355 50  0000 L CNN
-F 2 "" V 4030 3400 50  0001 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder" V 4030 3400 50  0001 C CNN
 F 3 "~" H 4100 3400 50  0001 C CNN
 	1    4100 3400
 	1    0    0    -1  
 $EndComp
 $Comp
-L Amplifier_Operational:TL082 U?
+L Amplifier_Operational:TL082 U6
 U 1 1 618669D7
 P 2600 3550
-F 0 "U?" H 2500 3550 50  0000 C CNN
+F 0 "U6" H 2500 3550 50  0000 C CNN
 F 1 "TL082" H 2550 3600 50  0001 C CNN
 F 2 "" H 2600 3550 50  0001 C CNN
 F 3 "http://www.ti.com/lit/ds/symlink/tl081.pdf" H 2600 3550 50  0001 C CNN
@@ -80,21 +80,21 @@ F 3 "http://www.ti.com/lit/ds/symlink/tl081.pdf" H 2600 3550 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Amplifier_Operational:TL082 U?
+L Amplifier_Operational:TL082 U4
 U 2 1 618685B3
 P 4500 3850
-F 0 "U?" H 4500 4150 50  0000 C CNN
+F 0 "U4" H 4500 4150 50  0000 C CNN
 F 1 "TL082" H 4500 4050 50  0000 C CNN
-F 2 "" H 4500 3850 50  0001 C CNN
+F 2 "Package_SO:SOIC-8-1EP_3.9x4.9mm_P1.27mm_EP2.29x3mm" H 4500 3850 50  0001 C CNN
 F 3 "http://www.ti.com/lit/ds/symlink/tl081.pdf" H 4500 3850 50  0001 C CNN
 	2    4500 3850
 	1    0    0    -1  
 $EndComp
 $Comp
-L Amplifier_Operational:TL082 U?
+L Amplifier_Operational:TL082 U6
 U 3 1 6186A0AE
 P 2750 3500
-F 0 "U?" H 2700 3700 50  0000 L CNN
+F 0 "U6" H 2700 3700 50  0000 L CNN
 F 1 "TL082" H 2700 3600 50  0000 L CNN
 F 2 "" H 2750 3500 50  0001 C CNN
 F 3 "http://www.ti.com/lit/ds/symlink/tl081.pdf" H 2750 3500 50  0001 C CNN
@@ -102,10 +102,10 @@ F 3 "http://www.ti.com/lit/ds/symlink/tl081.pdf" H 2750 3500 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Transistor_BJT:PN2222A Q?
+L Transistor_BJT:PN2222A Q3
 U 1 1 6187FC89
 P 5700 3850
-F 0 "Q?" H 5890 3896 50  0000 L CNN
+F 0 "Q3" H 5890 3896 50  0000 L CNN
 F 1 "PN2222A" H 5890 3805 50  0000 L CNN
 F 2 "Package_TO_SOT_THT:TO-92_Inline" H 5900 3775 50  0001 L CIN
 F 3 "https://www.onsemi.com/pub/Collateral/PN2222-D.PDF" H 5700 3850 50  0001 L CNN
@@ -169,10 +169,10 @@ Wire Wire Line
 	2150 2700 2650 2700
 Connection ~ 2650 2700
 $Comp
-L power:GND #PWR?
+L power:GND #PWR0123
 U 1 1 6188776C
 P 3250 4750
-F 0 "#PWR?" H 3250 4500 50  0001 C CNN
+F 0 "#PWR0123" H 3250 4500 50  0001 C CNN
 F 1 "GND" H 3255 4577 50  0000 C CNN
 F 2 "" H 3250 4750 50  0001 C CNN
 F 3 "" H 3250 4750 50  0001 C CNN
@@ -186,10 +186,10 @@ Wire Wire Line
 Wire Wire Line
 	3250 4700 3250 4750
 $Comp
-L Connector:Conn_01x02_Female J?
+L Connector:Conn_01x02_Female J3
 U 1 1 6188AFA4
 P 6050 4500
-F 0 "J?" H 6078 4476 50  0000 L CNN
+F 0 "J3" H 6078 4476 50  0000 L CNN
 F 1 "Salida 4-20 mA" H 6078 4385 50  0000 L CNN
 F 2 "" H 6050 4500 50  0001 C CNN
 F 3 "~" H 6050 4500 50  0001 C CNN
@@ -209,12 +209,12 @@ Connection ~ 3250 4700
 Wire Wire Line
 	3250 4700 3450 4700
 $Comp
-L Device:R R?
+L Device:R R19
 U 1 1 61858C7F
 P 3750 3750
-F 0 "R?" V 3543 3750 50  0000 C CNN
+F 0 "R19" V 3543 3750 50  0000 C CNN
 F 1 "10k" V 3634 3750 50  0000 C CNN
-F 2 "" V 3680 3750 50  0001 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder" V 3680 3750 50  0001 C CNN
 F 3 "~" H 3750 3750 50  0001 C CNN
 	1    3750 3750
 	0    1    1    0   
