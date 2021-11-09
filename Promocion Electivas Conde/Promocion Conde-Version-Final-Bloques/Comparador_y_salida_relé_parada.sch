@@ -167,21 +167,6 @@ F 3 "https://www.digikey.com/es/products/detail/texas-instruments/TL082CDE4/1347
 	1    5900 4350
 	1    0    0    -1  
 $EndComp
-$Comp
-L Amplifier_Operational:TL082 U5
-U 2 1 61344A8C
-P 3700 4450
-AR Path="/61322896/61344A8C" Ref="U5"  Part="2" 
-AR Path="/612F0357/61344A8C" Ref="U?"  Part="2" 
-AR Path="/618B3478/61344A8C" Ref="U?"  Part="2" 
-AR Path="/618B375A/61344A8C" Ref="U6"  Part="2" 
-F 0 "U6" H 3700 4817 50  0000 C CNN
-F 1 "TL082" H 3700 4726 50  0000 C CNN
-F 2 "Package_SO:SOIC-8-1EP_3.9x4.9mm_P1.27mm_EP2.29x3mm" H 3700 4450 50  0001 C CNN
-F 3 "https://www.digikey.com/es/products/detail/texas-instruments/TL082CDE4/13472954" H 3700 4450 50  0001 C CNN
-	2    3700 4450
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	3000 4550 3400 4550
 $Comp
@@ -467,8 +452,6 @@ Wire Wire Line
 Wire Wire Line
 	4150 1450 4150 1700
 Wire Wire Line
-	4150 1700 4900 1700
-Wire Wire Line
 	6200 1700 6200 1900
 Connection ~ 4150 1700
 Wire Wire Line
@@ -507,43 +490,6 @@ F 3 "" H 4950 5050 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	4950 5050 4950 4900
-$Comp
-L Amplifier_Operational:TL082 U5
-U 3 1 618C6FB1
-P 5000 2250
-AR Path="/61322896/618C6FB1" Ref="U5"  Part="3" 
-AR Path="/612F0357/618C6FB1" Ref="U?"  Part="3" 
-AR Path="/618B3478/618C6FB1" Ref="U?"  Part="3" 
-AR Path="/618B375A/618C6FB1" Ref="U7"  Part="3" 
-F 0 "U7" H 4958 2296 50  0000 L CNN
-F 1 "TL082" H 4958 2205 50  0000 L CNN
-F 2 "Package_SO:SOIC-8-1EP_3.9x4.9mm_P1.27mm_EP2.29x3mm" H 5000 2250 50  0001 C CNN
-F 3 "https://www.digikey.com/es/products/detail/texas-instruments/TL082CDE4/13472954" H 5000 2250 50  0001 C CNN
-	3    5000 2250
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	4900 1950 4900 1700
-Connection ~ 4900 1700
-Wire Wire Line
-	4900 1700 6200 1700
-$Comp
-L power:GND #PWR0121
-U 1 1 618C6FB2
-P 4900 2650
-AR Path="/61322896/618C6FB2" Ref="#PWR0121"  Part="1" 
-AR Path="/612F0357/618C6FB2" Ref="#PWR?"  Part="1" 
-AR Path="/618B3478/618C6FB2" Ref="#PWR?"  Part="1" 
-AR Path="/618B375A/618C6FB2" Ref="#PWR0129"  Part="1" 
-F 0 "#PWR0129" H 4900 2400 50  0001 C CNN
-F 1 "GND" H 4905 2477 50  0000 C CNN
-F 2 "" H 4900 2650 50  0001 C CNN
-F 3 "" H 4900 2650 50  0001 C CNN
-	1    4900 2650
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	4900 2650 4900 2550
 $Comp
 L Device:R R18
 U 1 1 618C6FB3
@@ -659,4 +605,62 @@ Wire Wire Line
 Connection ~ 7400 4000
 Wire Wire Line
 	7400 4000 7400 3900
+Wire Wire Line
+	4150 1700 4500 1700
+$Comp
+L Amplifier_Operational:TL082 U5
+U 2 1 61344A8C
+P 3700 4450
+AR Path="/61322896/61344A8C" Ref="U5"  Part="2" 
+AR Path="/612F0357/61344A8C" Ref="U?"  Part="2" 
+AR Path="/618B3478/61344A8C" Ref="U?"  Part="2" 
+AR Path="/618B375A/61344A8C" Ref="U6"  Part="2" 
+F 0 "U6" H 3550 4800 50  0000 C CNN
+F 1 "TL082" H 3600 4700 50  0000 C CNN
+F 2 "Package_SO:SOIC-8-1EP_3.9x4.9mm_P1.27mm_EP2.29x3mm" H 3700 4450 50  0001 C CNN
+F 3 "https://www.digikey.com/es/products/detail/texas-instruments/TL082CDE4/13472954" H 3700 4450 50  0001 C CNN
+	2    3700 4450
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3800 4850 3800 4750
+$Comp
+L power:GND #PWR0121
+U 1 1 618C6FB2
+P 3800 4850
+AR Path="/61322896/618C6FB2" Ref="#PWR0121"  Part="1" 
+AR Path="/612F0357/618C6FB2" Ref="#PWR?"  Part="1" 
+AR Path="/618B3478/618C6FB2" Ref="#PWR?"  Part="1" 
+AR Path="/618B375A/618C6FB2" Ref="#PWR0129"  Part="1" 
+F 0 "#PWR0129" H 3800 4600 50  0001 C CNN
+F 1 "GND" H 3805 4677 50  0000 C CNN
+F 2 "" H 3800 4850 50  0001 C CNN
+F 3 "" H 3800 4850 50  0001 C CNN
+	1    3800 4850
+	1    0    0    -1  
+$EndComp
+$Comp
+L Amplifier_Operational:TL082 U5
+U 3 1 618C6FB1
+P 3900 4450
+AR Path="/61322896/618C6FB1" Ref="U5"  Part="3" 
+AR Path="/612F0357/618C6FB1" Ref="U?"  Part="3" 
+AR Path="/618B3478/618C6FB1" Ref="U?"  Part="3" 
+AR Path="/618B375A/618C6FB1" Ref="U7"  Part="3" 
+F 0 "U7" H 3900 4650 50  0000 L CNN
+F 1 "TL082" H 3900 4750 50  0000 L CNN
+F 2 "Package_SO:SOIC-8-1EP_3.9x4.9mm_P1.27mm_EP2.29x3mm" H 3900 4450 50  0001 C CNN
+F 3 "https://www.digikey.com/es/products/detail/texas-instruments/TL082CDE4/13472954" H 3900 4450 50  0001 C CNN
+	3    3900 4450
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3800 4150 3800 4000
+Wire Wire Line
+	4500 4000 4500 1700
+Wire Wire Line
+	3800 4000 4500 4000
+Connection ~ 4500 1700
+Wire Wire Line
+	4500 1700 6200 1700
 $EndSCHEMATC
