@@ -291,7 +291,7 @@ $EndComp
 Wire Wire Line
 	4150 3400 4150 3300
 Text HLabel 4150 1450 1    50   Input ~ 0
-15V
+12V
 $Comp
 L Device:R R13
 U 1 1 61361C21
