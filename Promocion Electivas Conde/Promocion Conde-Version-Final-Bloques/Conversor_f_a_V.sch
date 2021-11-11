@@ -595,7 +595,7 @@ Wire Wire Line
 	2850 1650 4050 1650
 Connection ~ 4050 1650
 Text HLabel 2850 1650 0    50   Input ~ 0
-15V
+12V
 Text HLabel 7050 4200 2    50   Input ~ 0
 15V
 Text HLabel 6150 950  2    50   Input ~ 0

@@ -163,8 +163,6 @@ Text GLabel 2050 3450 0    50   Input ~ 0
 A
 Wire Wire Line
 	2050 3450 2300 3450
-Text GLabel 2150 2700 0    50   Input ~ 0
-15V
 Wire Wire Line
 	2150 2700 2650 2700
 Connection ~ 2650 2700
@@ -232,4 +230,6 @@ Wire Wire Line
 Connection ~ 3450 4700
 Wire Wire Line
 	3450 4700 5850 4700
+Text HLabel 2150 2700 0    50   Input ~ 0
+12V
 $EndSCHEMATC
