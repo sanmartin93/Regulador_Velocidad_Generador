@@ -1,7 +1,7 @@
 <<<<<<< HEAD
 update=23/8/2021 20:07:16
 =======
-update=16/11/2021 14:14:57
+update=16/11/2021 14:22:29
 >>>>>>> Santi
 version=1
 last_client=pcbnew
@@ -82,15 +82,15 @@ SolderMaskMinWidth=0
 SolderPasteClearance=0
 SolderPasteRatio=-0
 [pcbnew/Layer.F.Cu]
-Name=GND
+Name=F._GND
 Type=1
 Enabled=1
 [pcbnew/Layer.In1.Cu]
-Name=12V
+Name=F._12V
 Type=1
 Enabled=1
 [pcbnew/Layer.In2.Cu]
-Name=3,3V
+Name=B._3,3V
 Type=1
 Enabled=1
 [pcbnew/Layer.In3.Cu]
@@ -206,7 +206,7 @@ Name=In30.Cu
 Type=0
 Enabled=0
 [pcbnew/Layer.B.Cu]
-Name=Gnd
+Name=B.Gnd
 Type=1
 Enabled=1
 [pcbnew/Layer.B.Adhes]
