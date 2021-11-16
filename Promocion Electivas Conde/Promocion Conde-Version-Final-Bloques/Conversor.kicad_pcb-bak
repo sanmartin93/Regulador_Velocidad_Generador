@@ -107,4 +107,34 @@
   (gr_line (start 170 64) (end 170 114) (layer Edge.Cuts) (width 0.05))
   (gr_line (start 120 64) (end 170 64) (layer Edge.Cuts) (width 0.05))
 
+  (zone (net 0) (net_name "") (layer F._GND) (tstamp 0) (hatch edge 0.508)
+    (connect_pads (clearance 0.508))
+    (min_thickness 0.254)
+    (fill yes (arc_segments 32) (thermal_gap 0.508) (thermal_bridge_width 0.508))
+    (polygon
+      (pts
+        (xy 170 114) (xy 120 114) (xy 120 64) (xy 170 64)
+      )
+    )
+    (filled_polygon
+      (pts
+        (xy 169.340001 113.34) (xy 120.66 113.34) (xy 120.66 64.66) (xy 169.34 64.66)
+      )
+    )
+  )
+  (zone (net 0) (net_name "") (layer B.Gnd) (tstamp 0) (hatch edge 0.508)
+    (connect_pads (clearance 0.508))
+    (min_thickness 0.254)
+    (fill yes (arc_segments 32) (thermal_gap 0.508) (thermal_bridge_width 0.508))
+    (polygon
+      (pts
+        (xy 170 114) (xy 120 114) (xy 120 64) (xy 170 64)
+      )
+    )
+    (filled_polygon
+      (pts
+        (xy 169.340001 113.34) (xy 120.66 113.34) (xy 120.66 64.66) (xy 169.34 64.66)
+      )
+    )
+  )
 )
