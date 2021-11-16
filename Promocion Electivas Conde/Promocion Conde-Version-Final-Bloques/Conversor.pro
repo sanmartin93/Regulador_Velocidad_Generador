@@ -1,10 +1,10 @@
 <<<<<<< HEAD
 update=23/8/2021 20:07:16
 =======
-update=22/05/2015 07:44:53
+update=16/11/2021 14:14:57
 >>>>>>> Santi
 version=1
-last_client=kicad
+last_client=pcbnew
 [general]
 version=1
 RootSch=
@@ -14,22 +14,8 @@ BoardNm=
 [pcbnew]
 version=1
 LastNetListRead=
-UseCmpFile=1
-PadDrill=0.600000000000
-PadDrillOvalY=0.600000000000
-PadSizeH=1.500000000000
-PadSizeV=1.500000000000
-PcbTextSizeV=1.500000000000
-PcbTextSizeH=1.500000000000
-PcbTextThickness=0.300000000000
-ModuleTextSizeV=1.000000000000
-ModuleTextSizeH=1.000000000000
-ModuleTextSizeThickness=0.150000000000
 SolderMaskClearance=0.000000000000
 SolderMaskMinWidth=0.000000000000
-DrawSegmentWidth=0.200000000000
-BoardOutlineThickness=0.100000000000
-ModuleOutlineThickness=0.150000000000
 >>>>>>> Santi
 [cvpcb]
 version=1
@@ -53,7 +39,7 @@ ERC_TestSimilarLabels=1
 version=1
 PageLayoutDescrFile=
 LastNetListRead=Conversor.net
-CopperLayerCount=2
+CopperLayerCount=4
 BoardThickness=1.6
 AllowMicroVias=0
 AllowBlindVias=0
@@ -94,19 +80,19 @@ OthersTextUpright=1
 SolderMaskClearance=0
 SolderMaskMinWidth=0
 SolderPasteClearance=0
-SolderPasteRatio=0
+SolderPasteRatio=-0
 [pcbnew/Layer.F.Cu]
-Name=F.Cu
-Type=0
+Name=GND
+Type=1
 Enabled=1
 [pcbnew/Layer.In1.Cu]
-Name=In1.Cu
-Type=0
-Enabled=0
+Name=12V
+Type=1
+Enabled=1
 [pcbnew/Layer.In2.Cu]
-Name=In2.Cu
-Type=0
-Enabled=0
+Name=3,3V
+Type=1
+Enabled=1
 [pcbnew/Layer.In3.Cu]
 Name=In3.Cu
 Type=0
@@ -220,8 +206,8 @@ Name=In30.Cu
 Type=0
 Enabled=0
 [pcbnew/Layer.B.Cu]
-Name=B.Cu
-Type=0
+Name=Gnd
+Type=1
 Enabled=1
 [pcbnew/Layer.B.Adhes]
 Enabled=1
@@ -260,7 +246,7 @@ Enabled=1
 [pcbnew/Layer.F.Fab]
 Enabled=1
 [pcbnew/Layer.Rescue]
-Enabled=1
+Enabled=0
 [pcbnew/Netclasses]
 [pcbnew/Netclasses/Default]
 Name=Default
@@ -273,5 +259,4 @@ uViaDrill=0.1
 dPairWidth=0.2
 dPairGap=0.25
 dPairViaGap=0.25
-=======
 >>>>>>> Santi
