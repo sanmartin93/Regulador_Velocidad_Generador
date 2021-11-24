@@ -221,8 +221,8 @@ AR Path="/618B3478/618C6FA2" Ref="RV?"  Part="1"
 AR Path="/618B375A/618C6FA2" Ref="RV?"  Part="1" 
 F 0 "RV2" H 3580 2554 50  0000 R CNN
 F 1 "10K" H 3580 2645 50  0000 R CNN
-F 2 "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder" H 3650 2600 50  0001 C CNN
-F 3 "~" H 3650 2600 50  0001 C CNN
+F 2 "Potentiometer_SMD:Potentiometer_Vishay_TS53YL_Vertical" H 3650 2600 50  0001 C CNN
+F 3 "https://www.vishay.com/docs/51008/ts53.pdf" H 3650 2600 50  0001 C CNN
 	1    3650 2600
 	-1   0    0    1   
 $EndComp
@@ -412,8 +412,8 @@ AR Path="/618B3478/6136CC14" Ref="RV?"  Part="1"
 AR Path="/618B375A/6136CC14" Ref="RV?"  Part="1" 
 F 0 "RV3" H 5730 2504 50  0000 R CNN
 F 1 "R_POT" H 5730 2595 50  0000 R CNN
-F 2 "" H 5800 2550 50  0001 C CNN
-F 3 "~" H 5800 2550 50  0001 C CNN
+F 2 "Potentiometer_SMD:Potentiometer_Vishay_TS53YL_Vertical" H 5800 2550 50  0001 C CNN
+F 3 "https://www.vishay.com/docs/51008/ts53.pdf" H 5800 2550 50  0001 C CNN
 	1    5800 2550
 	-1   0    0    1   
 $EndComp
@@ -582,8 +582,8 @@ AR Path="/618B3478/618C6FB5" Ref="D?"  Part="1"
 AR Path="/618B375A/618C6FB5" Ref="D?"  Part="1" 
 F 0 "D4" V 7439 4682 50  0000 R CNN
 F 1 "LED" V 7348 4682 50  0000 R CNN
-F 2 "Diode_SMD:D_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 7400 4800 50  0001 C CNN
-F 3 "~" H 7400 4800 50  0001 C CNN
+F 2 "LED_SMD:LED_1206_3216Metric" H 7400 4800 50  0001 C CNN
+F 3 "https://www.aopled.com/AOP_PDFs/L152L-LIC.pdf" H 7400 4800 50  0001 C CNN
 	1    7400 4800
 	0    -1   -1   0   
 $EndComp
@@ -616,8 +616,8 @@ AR Path="/618B3478/618C6FB7" Ref="D?"  Part="1"
 AR Path="/618B375A/618C6FB7" Ref="D?"  Part="1" 
 F 0 "D3" V 7354 3830 50  0000 L CNN
 F 1 "1N4148" V 7445 3830 50  0000 L CNN
-F 2 "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal" H 7400 3575 50  0001 C CNN
-F 3 "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf" H 7400 3750 50  0001 C CNN
+F 2 "Diode_SMD:D_SOD-323" H 7400 3575 50  0001 C CNN
+F 3 "https://www.diodes.com/assets/Datasheets/1N4148WSF.pdf" H 7400 3750 50  0001 C CNN
 	1    7400 3750
 	0    1    1    0   
 $EndComp

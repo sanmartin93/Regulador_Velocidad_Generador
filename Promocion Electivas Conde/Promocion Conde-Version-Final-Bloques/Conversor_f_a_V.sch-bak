@@ -50,8 +50,8 @@ AR Path="/612E15A4/613127A3" Ref="D1"  Part="1"
 AR Path="/6184FF73/613127A3" Ref="D?"  Part="1" 
 F 0 "D1" V 2204 2930 50  0000 L CNN
 F 1 "1N4148" V 2295 2930 50  0000 L CNN
-F 2 "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal" H 2250 2675 50  0001 C CNN
-F 3 "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf" H 2250 2850 50  0001 C CNN
+F 2 "Diode_SMD:D_SOD-323" H 2250 2675 50  0001 C CNN
+F 3 "https://www.diodes.com/assets/Datasheets/1N4148WSF.pdf" H 2250 2850 50  0001 C CNN
 	1    2250 2850
 	0    1    1    0   
 $EndComp
@@ -344,7 +344,7 @@ AR Path="/612E15A4/61312824" Ref="RV1"  Part="1"
 AR Path="/6184FF73/61312824" Ref="RV?"  Part="1" 
 F 0 "RV1" V 6095 2800 50  0000 C CNN
 F 1 "20K" V 6186 2800 50  0000 C CNN
-F 2 "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder" H 6300 2800 50  0001 C CNN
+F 2 "Potentiometer_SMD:Potentiometer_Vishay_TS53YL_Vertical" H 6300 2800 50  0001 C CNN
 F 3 "~" H 6300 2800 50  0001 C CNN
 	1    6300 2800
 	0    1    1    0   
@@ -599,9 +599,11 @@ Text HLabel 2850 1650 0    50   Input ~ 0
 Text HLabel 7050 4200 2    50   Input ~ 0
 15V
 Text HLabel 6150 950  2    50   Input ~ 0
-15V
+12V
 Wire Wire Line
 	6150 950  5950 950 
 Wire Wire Line
 	4050 1650 8850 1650
+Text Notes 5375 2300 0    31   ~ 0
+Ver footprint del potenciometro (elegimos el mas grande TS53YL)
 $EndSCHEMATC

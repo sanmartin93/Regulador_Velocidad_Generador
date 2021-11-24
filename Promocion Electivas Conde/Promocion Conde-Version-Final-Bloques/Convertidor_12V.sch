@@ -40,10 +40,10 @@ Text HLabel 6500 2900 2    50   Input ~ 0
 Text HLabel 4975 2300 1    50   Input ~ 0
 24V
 $Comp
-L Converter_DCDC:MTC1S2412MC-R13 U?
+L Converter_DCDC:MTC1S2412MC-R13 U1
 U 1 1 618D6B55
 P 5675 2650
-F 0 "U?" H 5675 3125 50  0000 C CNN
+F 0 "U1" H 5675 3125 50  0000 C CNN
 F 1 "MTC1S2412MC-R13" H 5675 3034 50  0000 C CNN
 F 2 "Converter_DCDC:MTC1S2412MC-R13" H 5725 3350 50  0001 C CNN
 F 3 "https://www.murata.com/products/productdata/8807030358046/kdc-mtc1.pdf?1583754812000" H 5425 2300 50  0001 C CNN
@@ -51,12 +51,12 @@ F 3 "https://www.murata.com/products/productdata/8807030358046/kdc-mtc1.pdf?1583
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:R Rtrim
+L Device:R Rtrim1
 U 1 1 618DFED1
 P 6475 2550
-F 0 "Rtrim" H 6545 2596 50  0000 L CNN
+F 0 "Rtrim1" H 6545 2596 50  0000 L CNN
 F 1 "R" H 6545 2505 50  0000 L CNN
-F 2 "" V 6405 2550 50  0001 C CNN
+F 2 "Resistor_SMD:R_0201_0603Metric_Pad0.64x0.40mm_HandSolder" V 6405 2550 50  0001 C CNN
 F 3 "~" H 6475 2550 50  0001 C CNN
 	1    6475 2550
 	1    0    0    -1  
