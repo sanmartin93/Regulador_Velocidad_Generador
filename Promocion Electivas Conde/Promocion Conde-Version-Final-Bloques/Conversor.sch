@@ -105,4 +105,48 @@ F1 "Convertidor_12V.sch" 50
 F2 "12V" I R 2950 2200 50 
 F3 "24V" I R 2950 2000 50 
 $EndSheet
+$Comp
+L Mechanical:MountingHole H1
+U 1 1 6194C4E5
+P 7525 2525
+F 0 "H1" H 7625 2571 50  0000 L CNN
+F 1 "MountingHole" H 7625 2480 50  0000 L CNN
+F 2 "MountingHole:MountingHole_3.2mm_M3" H 7525 2525 50  0001 C CNN
+F 3 "~" H 7525 2525 50  0001 C CNN
+	1    7525 2525
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole H3
+U 1 1 6194D0A7
+P 8250 2525
+F 0 "H3" H 8350 2571 50  0000 L CNN
+F 1 "MountingHole" H 8350 2480 50  0000 L CNN
+F 2 "MountingHole:MountingHole_3.2mm_M3" H 8250 2525 50  0001 C CNN
+F 3 "~" H 8250 2525 50  0001 C CNN
+	1    8250 2525
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole H2
+U 1 1 6194D435
+P 7525 2900
+F 0 "H2" H 7625 2946 50  0000 L CNN
+F 1 "MountingHole" H 7625 2855 50  0000 L CNN
+F 2 "MountingHole:MountingHole_3.2mm_M3" H 7525 2900 50  0001 C CNN
+F 3 "~" H 7525 2900 50  0001 C CNN
+	1    7525 2900
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole H4
+U 1 1 6194D618
+P 8250 2925
+F 0 "H4" H 8350 2971 50  0000 L CNN
+F 1 "MountingHole" H 8350 2880 50  0000 L CNN
+F 2 "MountingHole:MountingHole_3.2mm_M3" H 8250 2925 50  0001 C CNN
+F 3 "~" H 8250 2925 50  0001 C CNN
+	1    8250 2925
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC

@@ -19,8 +19,8 @@ U 1 1 61856B19
 P 3250 3750
 F 0 "RV4" H 3182 3796 50  0000 R CNN
 F 1 "10k" H 3182 3705 50  0000 R CNN
-F 2 "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder" H 3250 3750 50  0001 C CNN
-F 3 "~" H 3250 3750 50  0001 C CNN
+F 2 "Potentiometer_SMD:Potentiometer_Vishay_TS53YL_Vertical" H 3250 3750 50  0001 C CNN
+F 3 "https://www.vishay.com/docs/51008/ts53.pdf" H 3250 3750 50  0001 C CNN
 	1    3250 3750
 	1    0    0    -1  
 $EndComp
@@ -30,8 +30,8 @@ U 1 1 6185887C
 P 3800 3050
 F 0 "RV5" H 3732 3096 50  0000 R CNN
 F 1 "10k" H 3732 3005 50  0000 R CNN
-F 2 "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder" H 3800 3050 50  0001 C CNN
-F 3 "~" H 3800 3050 50  0001 C CNN
+F 2 "Potentiometer_SMD:Potentiometer_Vishay_TS53YL_Vertical" H 3800 3050 50  0001 C CNN
+F 3 "https://www.vishay.com/docs/51008/ts53.pdf" H 3800 3050 50  0001 C CNN
 	1    3800 3050
 	1    0    0    -1  
 $EndComp
@@ -107,7 +107,7 @@ U 1 1 6187FC89
 P 5700 3850
 F 0 "Q3" H 5890 3896 50  0000 L CNN
 F 1 "PN2222A" H 5890 3805 50  0000 L CNN
-F 2 "Package_TO_SOT_THT:TO-92_Inline" H 5900 3775 50  0001 L CIN
+F 2 "Package_TO_SOT_SMD:SOT-23" H 5900 3775 50  0001 L CIN
 F 3 "https://www.onsemi.com/pub/Collateral/PN2222-D.PDF" H 5700 3850 50  0001 L CNN
 	1    5700 3850
 	1    0    0    -1  
