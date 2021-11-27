@@ -1,7 +1,7 @@
 <<<<<<< HEAD
 update=23/8/2021 20:07:16
 =======
-update=16/11/2021 14:22:29
+update=27/11/2021 17:36:18
 >>>>>>> Santi
 version=1
 last_client=pcbnew
@@ -90,7 +90,7 @@ Name=F._12V
 Type=1
 Enabled=1
 [pcbnew/Layer.In2.Cu]
-Name=B._3,3V
+Name=B._24V
 Type=1
 Enabled=1
 [pcbnew/Layer.In3.Cu]
