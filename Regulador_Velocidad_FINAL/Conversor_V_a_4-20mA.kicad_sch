@@ -443,13 +443,13 @@
     )
   )
 
-  (junction (at 67.31 68.58) (diameter 0) (color 0 0 0 0))
-  (junction (at 87.63 119.38) (diameter 0) (color 0 0 0 0))
   (junction (at 73.66 90.17) (diameter 0) (color 0 0 0 0))
-  (junction (at 96.52 68.58) (diameter 0) (color 0 0 0 0))
   (junction (at 147.32 109.22) (diameter 0) (color 0 0 0 0))
-  (junction (at 104.14 95.25) (diameter 0) (color 0 0 0 0))
   (junction (at 82.55 119.38) (diameter 0) (color 0 0 0 0))
+  (junction (at 104.14 95.25) (diameter 0) (color 0 0 0 0))
+  (junction (at 96.52 68.58) (diameter 0) (color 0 0 0 0))
+  (junction (at 87.63 119.38) (diameter 0) (color 0 0 0 0))
+  (junction (at 67.31 68.58) (diameter 0) (color 0 0 0 0))
 
   (wire (pts (xy 73.66 90.17) (xy 82.55 90.17))
     (stroke (width 0) (type default) (color 0 0 0 0))
