@@ -1,0 +1,3 @@
+(sym_lib_table
+  (lib (name Regulador_Velocidad_FINAL-rescue)(type Legacy)(uri ${KIPRJMOD}/Regulador_Velocidad_FINAL-rescue.lib)(options "")(descr ""))
+)
