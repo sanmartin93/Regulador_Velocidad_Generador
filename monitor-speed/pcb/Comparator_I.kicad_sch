@@ -1353,7 +1353,7 @@
     (pin "1" (uuid 81b0891f-23ba-4886-b877-1afbc3d712c8))
   )
 
-  (symbol (lib_id "Amplifier_Operational:TL082") (at 130.175 91.44 0) (mirror x) (unit 2)
+  (symbol (lib_id "Amplifier_Operational:TL082") (at 130.175 91.44 0) (mirror x) (unit 1)
     (in_bom yes) (on_board yes) (fields_autoplaced)
     (uuid bc5179c1-6307-4217-a8eb-be2d1d76e808)
     (property "Reference" "U?" (id 0) (at 130.175 82.3935 0))
@@ -1364,9 +1364,9 @@
     (property "Datasheet" "http://www.ti.com/lit/ds/symlink/tl081.pdf" (id 3) (at 130.175 91.44 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "5" (uuid 634a0862-6576-4540-93ae-9dbe7128ee8d))
-    (pin "6" (uuid e9b98c65-449b-4af1-be0d-d3f597cb3026))
-    (pin "7" (uuid 0e21f9f7-b48b-4528-89bf-e501a36f484c))
+    (pin "1" (uuid ad05a120-002b-46db-b56d-7b28e5806ba8))
+    (pin "2" (uuid aae292af-6afa-4739-a2da-84f57fb908f4))
+    (pin "3" (uuid 9f67b2d5-cd17-4556-b103-96711e3b1d34))
   )
 
   (symbol (lib_id "Device:R") (at 179.07 102.87 270) (unit 1)

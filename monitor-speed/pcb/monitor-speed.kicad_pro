@@ -425,7 +425,19 @@
     ],
     [
       "d088e7c8-ccf7-49b1-b313-039ab6e56d3a",
-      "Comparador_II"
+      "Comparator_I"
+    ],
+    [
+      "9ab52dfd-8d71-4050-bfe4-ebd78ae16dff",
+      "Comparator_2"
+    ],
+    [
+      "c5704ce0-4066-4ad5-93e5-f990829c7b70",
+      "Delay circuit"
+    ],
+    [
+      "955d6773-3373-4c18-ad61-482c7b46bae5",
+      "Delay circuit1"
     ]
   ],
   "text_variables": {}
