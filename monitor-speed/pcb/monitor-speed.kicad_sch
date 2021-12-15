@@ -290,7 +290,7 @@
   (symbol (lib_id "Connector:Conn_01x03_Female") (at 254.635 102.235 0) (unit 1)
     (in_bom yes) (on_board yes) (fields_autoplaced)
     (uuid 0cd0aafc-b20f-4c18-b692-78a357cba885)
-    (property "Reference" "J?" (id 0) (at 255.3462 101.3265 0)
+    (property "Reference" "J3" (id 0) (at 255.3462 101.3265 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "Conn_01x03_Female" (id 1) (at 255.3462 104.1016 0)
@@ -328,7 +328,7 @@
   (symbol (lib_id "Connector:Conn_01x02_Female") (at 253.365 123.19 0) (unit 1)
     (in_bom yes) (on_board yes) (fields_autoplaced)
     (uuid 25d3f6fc-1324-40cb-a95f-24af8107b6ca)
-    (property "Reference" "J?" (id 0) (at 254.0762 123.5515 0)
+    (property "Reference" "J2" (id 0) (at 254.0762 123.5515 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "Conn_01x02_Female" (id 1) (at 254.0762 126.3266 0)
@@ -362,7 +362,7 @@
   (symbol (lib_id "Connector:Conn_01x03_Female") (at 255.27 78.74 0) (unit 1)
     (in_bom yes) (on_board yes) (fields_autoplaced)
     (uuid 820c4e56-54a6-4bbd-8f19-ee87ad8a593c)
-    (property "Reference" "J?" (id 0) (at 255.9812 77.8315 0)
+    (property "Reference" "J4" (id 0) (at 255.9812 77.8315 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "Conn_01x03_Female" (id 1) (at 255.9812 80.6066 0)
@@ -692,6 +692,9 @@
     (path "/a76dfb0f-9aec-4bb4-8de3-68cdb85cd30e/4b90031a-6c9e-4ff6-a234-17e1c5add2cb"
       (reference "#PWR039") (unit 1) (value "GND") (footprint "")
     )
+    (path "/f47e5bea-e25b-470c-b755-473b68193ada/32553301-461e-4184-8975-7f2f74daa1e8"
+      (reference "#PWR0101") (unit 1) (value "+12") (footprint "")
+    )
     (path "/01106a52-6b7d-40fd-b165-c927be1f6a1d/00000000-0000-0000-0000-00006131287a"
       (reference "#PWR0110") (unit 1) (value "GND") (footprint "")
     )
@@ -703,9 +706,6 @@
     )
     (path "/f47e5bea-e25b-470c-b755-473b68193ada/00000000-0000-0000-0000-00006188776c"
       (reference "#PWR0123") (unit 1) (value "GND") (footprint "")
-    )
-    (path "/f47e5bea-e25b-470c-b755-473b68193ada/32553301-461e-4184-8975-7f2f74daa1e8"
-      (reference "#PWR?") (unit 1) (value "+12") (footprint "")
     )
     (path "/01106a52-6b7d-40fd-b165-c927be1f6a1d/c24d8954-27a8-4850-9e38-ffdbeb71bd91"
       (reference "C1") (unit 1) (value "100nF") (footprint "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder")
@@ -767,14 +767,14 @@
     (path "/343cca39-8374-4d58-8bc3-c407c43e1587"
       (reference "J1") (unit 1) (value "Conn_01x02_Female") (footprint "")
     )
-    (path "/0cd0aafc-b20f-4c18-b692-78a357cba885"
-      (reference "J?") (unit 1) (value "Conn_01x03_Female") (footprint "eec:TE-282841-3-0")
-    )
     (path "/25d3f6fc-1324-40cb-a95f-24af8107b6ca"
-      (reference "J?") (unit 1) (value "Conn_01x02_Female") (footprint "")
+      (reference "J2") (unit 1) (value "Conn_01x02_Female") (footprint "")
+    )
+    (path "/0cd0aafc-b20f-4c18-b692-78a357cba885"
+      (reference "J3") (unit 1) (value "Conn_01x03_Female") (footprint "eec:TE-282841-3-0")
     )
     (path "/820c4e56-54a6-4bbd-8f19-ee87ad8a593c"
-      (reference "J?") (unit 1) (value "Conn_01x03_Female") (footprint "eec:TE-282841-3-0")
+      (reference "J4") (unit 1) (value "Conn_01x03_Female") (footprint "eec:TE-282841-3-0")
     )
     (path "/9ab52dfd-8d71-4050-bfe4-ebd78ae16dff/00000000-0000-0000-0000-000061350345"
       (reference "K1") (unit 1) (value "DIPxx-1Cxx-51x") (footprint "Relay_THT:Relay_StandexMeder_DIP_LowProfile")
