@@ -1,0 +1,4 @@
+(sym_lib_table
+  (lib (name "eec")(type "Legacy")(uri "${KIPRJMOD}/schlib/library/eec.lib")(options "")(descr ""))
+  (lib (name "t-blox")(type "Legacy")(uri "${KIPRJMOD}/schlib/library/t-blox.lib")(options "")(descr ""))
+)

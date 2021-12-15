@@ -438,6 +438,18 @@
     [
       "955d6773-3373-4c18-ad61-482c7b46bae5",
       "Delay circuit1"
+    ],
+    [
+      "f1c4b4ed-f021-4fdd-b442-67cd58c2e650",
+      "output_relay"
+    ],
+    [
+      "f47e5bea-e25b-470c-b755-473b68193ada",
+      "converter_4-20mA"
+    ],
+    [
+      "a76dfb0f-9aec-4bb4-8de3-68cdb85cd30e",
+      "output_relay1"
     ]
   ],
   "text_variables": {}
